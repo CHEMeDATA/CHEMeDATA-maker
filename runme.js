@@ -1,4 +1,4 @@
-// https://www.c-sharpcorner.com/article/creating-server-and-host-html-page-using-node-js/
+/* eslint-disable no-path-concat */
 import { readFile } from 'fs';
 import { createServer } from 'http';
 import { parse } from 'url';
