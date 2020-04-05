@@ -9,7 +9,7 @@ export function myModule() {
     response.writeHead(200, {
       'Content-Type': 'text/plain',
     });
-    response.write('This is Test Message.');
+    response.write('This is Test Message from index.js');
     response.end();
   });
   //server.listen(8082);

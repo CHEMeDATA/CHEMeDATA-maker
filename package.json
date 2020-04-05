@@ -2,12 +2,7 @@
   "name": "CHEMeDATA-maker",
   "version": "0.0.0",
   "description": "Add CHEMeDATA to documents",
-  "main": "lib/index.js",
-  "module": "src/index.js",
-  "files": [
-    "lib",
-    "src"
-  ],
+  "main": "runme.js",
   "scripts": {
     "eslint": "eslint src",
     "eslint-fix": "npm run eslint -- --fix",
