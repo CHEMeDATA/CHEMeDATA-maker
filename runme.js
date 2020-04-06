@@ -44,7 +44,7 @@ let server = http.createServer(function (request, response) {
       });
       break;
     case '/HtmlPage4.html':
-      fs.readFile(__dirname, path, function (error, data) {
+      fs.readFile(dirname, path, function (error, data) {
         if (error) {
           response.writeHead(404);
           response.write(error);
