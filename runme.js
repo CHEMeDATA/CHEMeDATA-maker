@@ -1,4 +1,5 @@
 // https://www.c-sharpcorner.com/article/creating-server-and-host-html-page-using-node-js/
+import { join } from 'path';
 let fs = require('fs');
 let http = require('http');
 let url = require('url');
@@ -14,7 +15,7 @@ let server = http.createServer(function (request, response) {
       response.end();
       break;
     case '/html/HtmlPage1.html':
-      fs.readFile(__dirname, path, function (error, data) {
+      fs.readFile(join(__dirname, path), function (error, data) {
         if (error) {
           response.writeHead(404);
           response.write(error);
@@ -29,7 +30,7 @@ let server = http.createServer(function (request, response) {
       });
       break;
     case '/html/HtmlPage2.html':
-      fs.readFile(__dirname, path, function (error, data) {
+      fs.readFile(join(__dirname, path), function (error, data) {
         if (error) {
           response.writeHead(404);
           response.write(error);
@@ -44,7 +45,7 @@ let server = http.createServer(function (request, response) {
       });
       break;
     case '/HtmlPage4.html':
-      fs.readFile(__dirname, path, function (error, data) {
+      fs.readFile(join(__dirname, path), function (error, data) {
         if (error) {
           response.writeHead(404);
           response.write(error);
@@ -59,7 +60,7 @@ let server = http.createServer(function (request, response) {
       });
       break;
     case '/index.html':
-      fs.readFile(__dirname, path, function (error, data) {
+      fs.readFile(join(__dirname, path), function (error, data) {
         if (error) {
           response.writeHead(404);
           response.write(error);
