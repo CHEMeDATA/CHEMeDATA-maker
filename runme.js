@@ -29,7 +29,7 @@ let server = http.createServer(function (request, response) {
       });
       break;
     case '/html/HtmlPage2.html':
-      fs.readFile(__dirname, path, function (error, data) {
+      fs.readFile(path, function (error, data) {
         if (error) {
           response.writeHead(404);
           response.write(error);
