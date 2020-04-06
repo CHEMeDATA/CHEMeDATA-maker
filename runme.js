@@ -44,6 +44,21 @@ let server = http.createServer(function (request, response) {
         }
       });
       break;
+    case '/jsme/jsme.nocache.js':
+      fs.readFile(path2, function (error, data) {
+        if (error) {
+          response.writeHead(404);
+          response.write(error);
+          response.end();
+        } else {
+          response.writeHead(200, {
+            'Content-Type': 'text/javascript',
+          });
+          response.write(data);
+          response.end();
+        }
+      });
+      break;
     case '/HtmlPage4.html':
       fs.readFile(path2, function (error, data) {
         if (error) {
@@ -59,7 +74,7 @@ let server = http.createServer(function (request, response) {
         }
       });
       break;
-    case '/html/index.html':
+    case '/html/dump.html':
       fs.readFile(path2, function (error, data) {
         if (error) {
           response.writeHead(404);
@@ -76,7 +91,7 @@ let server = http.createServer(function (request, response) {
       break;
     default:
       response.writeHead(404);
-      response.write("Doesn't exist really - 404");
+      response.write("Doesn't exist 404 !");
       response.end();
       break;
   }
