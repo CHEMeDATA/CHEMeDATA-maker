@@ -59,7 +59,7 @@ let server = http.createServer(function (request, response) {
         }
       });
       break;
-    case '/index.html':
+    case '/html/index.html':
       fs.readFile(path2, function (error, data) {
         if (error) {
           response.writeHead(404);
