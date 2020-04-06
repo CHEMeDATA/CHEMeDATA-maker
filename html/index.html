@@ -36,11 +36,11 @@
         let im;
         let imageOfStructure;
               for (let index = 0; index < 10; index++) {
-                 f = "data/unige_5398_attachment01/page-number/in" + (index + 1) + ".txt";
+                 f = "../data/unige_5398_attachment01/page-number/in" + (index + 1) + ".txt";
                  response = await fetch(f);
                 if (response.status == 200) {
-                   im = "data/unige_5398_attachment01/separated_png/struct" + (index) + ".png";
-                   imageOfStructuresvg = "data/unige_5398_attachment01/separated_svg/str" + (index + 1) + ".svg";
+                   im = "../data/unige_5398_attachment01/separated_png/struct" + (index) + ".png";
+                   imageOfStructuresvg = "../data/unige_5398_attachment01/separated_svg/str" + (index + 1) + ".svg";
 
                 // let j = result.j[index];
 
