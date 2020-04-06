@@ -10,7 +10,7 @@ let server = http.createServer(function (request, response) {
       response.writeHead(200, {
         'Content-Type': 'text/plain',
       });
-      response.write('This is Test Message !!.');
+      response.write('This is Test Message 2.0 !!.');
       response.end();
       break;
     case '/html/HtmlPage1.html':
@@ -43,6 +43,21 @@ let server = http.createServer(function (request, response) {
         }
       });
       break;
+      case '/HtmlPage4.html':
+      fs.readFile(__dirname, path, function (error, data) {
+        if (error) {
+          response.writeHead(404);
+          response.write(error);
+          response.end();
+        } else {
+          response.writeHead(200, {
+            'Content-Type': 'text/html',
+          });
+          response.write(data);
+          response.end();
+        }
+      });
+      break;
     case '/index.html':
       fs.readFile(__dirname, path, function (error, data) {
         if (error) {
@@ -60,7 +75,7 @@ let server = http.createServer(function (request, response) {
       break;
     default:
       response.writeHead(404);
-      response.write("Doesn't exist - 404");
+      response.write("Doesn't exist really - 404");
       response.end();
       break;
   }
