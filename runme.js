@@ -10,7 +10,7 @@ let server = http.createServer(function (request, response) {
       response.writeHead(200, {
         'Content-Type': 'text/plain',
       });
-      response.write('This is Test Message 2.0 !!.');
+      response.write('This is Test Message 20:50 !!.');
       response.end();
       break;
     case '/html/HtmlPage1.html':
@@ -43,7 +43,7 @@ let server = http.createServer(function (request, response) {
         }
       });
       break;
-      case '/HtmlPage4.html':
+    case '/HtmlPage4.html':
       fs.readFile(__dirname, path, function (error, data) {
         if (error) {
           response.writeHead(404);
@@ -80,4 +80,4 @@ let server = http.createServer(function (request, response) {
       break;
   }
 });
-server.listen(5501);
+server.listen(3000);
