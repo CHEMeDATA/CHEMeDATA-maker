@@ -6,6 +6,17 @@
 
 Add CHEMeDATA to documents.
 
+## Goal
+
+Faciliate the association of spectroscopic data (in form of text) to chemical structures.
+In the annexe of many PhD thesis, the spectroscopic data are shown next to the structure.
+
+![Image from phd thesis with molecule and spectroscopic data](images/imagethesis.png)
+
+We should show, next to a molecules (which structure [was extracted from a pdf](https://github.com/CHEMeDATA/fixingmolfiles)) the text (which was extracted using pdfjs-dist) which was located next to the compound. 
+
+
+
 ## Installation
 
 `$ npm i CHEMeDATA-maker`
