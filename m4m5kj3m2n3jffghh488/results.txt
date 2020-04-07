@@ -1,0 +1,1078 @@
+Start example number: 2===================================================================
+nb      : 3
+tau      : 200 ps
+Larmor   : 500 MHz
+rhoStar  : 0 s-1
+tMix     : 0.1 s
+cutoff   : 15 A
+Calculate: NOE 
+JValSigma HH: 2.65272e-10
+JValRho HH  : 1.09545e-09
+JValSigma HC: 5.77726e-10
+JValRho HC  : 1.49066e-09
+JValSigma HN: 7.74673e-10
+JValRho HN  : 1.64273e-09
+JValSigma HF: 2.82805e-10
+JValRho HF  : 1.12691e-09
+JValSigma CH: 5.77726e-10
+JValRho CH  : 1.33545e-09
+rho + rhoStar atom:0(Z=1): 63.3771 + 0 = 63.3771 (gamma:267.522)
+rho + rhoStar atom:1(Z=1): 124.804 + 0 = 124.804 (gamma:267.522)
+rho + rhoStar atom:2(Z=1): 63.3771 + 0 = 63.3771 (gamma:267.522)
+Distance matrix 
+0 1 True   =  0   1   2  
+1 1 True   =  1   0   1  
+2 1 True   =  2   1   0  
+0 1 Pseudo =  0   1   2  
+1 1 Pseudo =  1   0   1  
+2 1 Pseudo =  2   1   0  
+Number of iter for diagonalization : 12
+Eigen Vectors 0.674503 0.212241 -0.707107 
+Eigen Vectors -0.300154 0.953891 -1.19523e-16 
+Eigen Vectors 0.674503 0.212241 0.707107 
+Before scaling according to gamma 
+noeMatrix (NOT normalized ) 0.00244468 -0.000684594 0.000634084 
+noeMatrix (NOT normalized ) -0.000684594 0.000306585 -0.000684594 
+noeMatrix (NOT normalized ) 0.000634084 -0.000684594 0.00244468 
+After scaling according to value(i,j) *= Gi*Gj/(GH*GH) 
+noeMatrix (NOT normalized ) 0.00244468 -0.000684594 0.000634084 
+noeMatrix (NOT normalized ) -0.000684594 0.000306585 -0.000684594 
+noeMatrix (NOT normalized ) 0.000634084 -0.000684594 0.00244468 
+noeMatrix (normalized to diagonal) 1 -0.280035 0.259373 
+noeMatrix (normalized to diagonal) -2.23297 1 -2.23297 
+noeMatrix (normalized to diagonal) 0.259373 -0.280035 1 
+NOE diagonal(0) 0.00244468
+NOE diagonal(1) 0.000306585
+NOE diagonal(2) 0.00244468
+nb      : 3
+tau      : 200 ps
+Larmor   : 500 MHz
+rhoStar  : 0 s-1
+tMix     : 0.1 s
+cutoff   : 15 A
+Calculate: NOE 
+JValSigma HH: 2.65272e-10
+JValRho HH  : 1.09545e-09
+JValSigma HC: 5.77726e-10
+JValRho HC  : 1.49066e-09
+JValSigma HN: 7.74673e-10
+JValRho HN  : 1.64273e-09
+JValSigma HF: 2.82805e-10
+JValRho HF  : 1.12691e-09
+JValSigma CH: 5.77726e-10
+JValRho CH  : 1.33545e-09
+rho + rhoStar atom:0(Z=1): 63.3771 + 0 = 63.3771 (gamma:267.522)
+rho + rhoStar atom:1(Z=1): 124.804 + 0 = 124.804 (gamma:267.522)
+rho + rhoStar atom:2(Z=1): 63.3771 + 0 = 63.3771 (gamma:267.522)
+Distance matrix 
+0 1 True   =  0   1   2  
+1 1 True   =  1   0   1  
+2 1 True   =  2   1   0  
+0 1 Pseudo =  0   1   2  
+1 1 Pseudo =  1   0   1  
+2 1 Pseudo =  2   1   0  
+Number of iter for diagonalization : 12
+Eigen Vectors 0.674503 0.212241 -0.707107 
+Eigen Vectors -0.300154 0.953891 -1.19523e-16 
+Eigen Vectors 0.674503 0.212241 0.707107 
+Before scaling according to gamma 
+noeMatrix (NOT normalized ) 0.00244468 -0.000684594 0.000634084 
+noeMatrix (NOT normalized ) -0.000684594 0.000306585 -0.000684594 
+noeMatrix (NOT normalized ) 0.000634084 -0.000684594 0.00244468 
+After scaling according to value(i,j) *= Gi*Gj/(GH*GH) 
+noeMatrix (NOT normalized ) 0.00244468 -0.000684594 0.000634084 
+noeMatrix (NOT normalized ) -0.000684594 0.000306585 -0.000684594 
+noeMatrix (NOT normalized ) 0.000634084 -0.000684594 0.00244468 
+noeMatrix (normalized to diagonal) 1 -0.280035 0.259373 
+noeMatrix (normalized to diagonal) -2.23297 1 -2.23297 
+noeMatrix (normalized to diagonal) 0.259373 -0.280035 1 
+NOE diagonal(0) 0.00244468
+NOE diagonal(1) 0.000306585
+NOE diagonal(2) 0.00244468
+Test OK Value calculated : 28.0035 is indeed ~=  28.0035
+===================================================================
+===================================================================
+===================================================================
+Start example number: 3===================================================================
+nb      : 3
+tau      : 200 ps
+Larmor   : 500 MHz
+rhoStar  : 0 s-1
+tMix     : 0.1 s
+cutoff   : 15 A
+Calculate: NOE 
+JValSigma HH: 2.65272e-10
+JValRho HH  : 1.09545e-09
+JValSigma HC: 5.77726e-10
+JValRho HC  : 1.49066e-09
+JValSigma HN: 7.74673e-10
+JValRho HN  : 1.64273e-09
+JValSigma HF: 2.82805e-10
+JValRho HF  : 1.12691e-09
+JValSigma CH: 5.77726e-10
+JValRho CH  : 1.33545e-09
+rho + rhoStar atom:0(Z=1): 62.4877 + 0 = 62.4877 (gamma:267.522)
+rho + rhoStar atom:1(Z=1): 63.3771 + 0 = 63.3771 (gamma:267.522)
+rho + rhoStar atom:2(Z=1): 1.06063 + 0 = 1.06063 (gamma:267.522)
+Distance matrix 
+0 1 True   =  0   1   3  
+1 1 True   =  1   0   2  
+2 1 True   =  3   2   0  
+0 1 Pseudo =  0   1   3  
+1 1 Pseudo =  1   0   2  
+2 1 Pseudo =  3   2   0  
+Number of iter for diagonalization : 10
+Eigen Vectors 0.717442 0.696618 0.000632327 
+Eigen Vectors -0.696611 0.717438 -0.00394218 
+Eigen Vectors -0.00319985 0.0023878 0.999992 
+Before scaling according to gamma 
+noeMatrix (NOT normalized ) 0.00451327 -0.00398829 0.000550174 
+noeMatrix (NOT normalized ) -0.00398829 0.00429196 -0.00352638 
+noeMatrix (NOT normalized ) 0.000550174 -0.00352638 0.899436 
+After scaling according to value(i,j) *= Gi*Gj/(GH*GH) 
+noeMatrix (NOT normalized ) 0.00451327 -0.00398829 0.000550174 
+noeMatrix (NOT normalized ) -0.00398829 0.00429196 -0.00352638 
+noeMatrix (NOT normalized ) 0.000550174 -0.00352638 0.899436 
+noeMatrix (normalized to diagonal) 1 -0.883681 0.121901 
+noeMatrix (normalized to diagonal) -0.929248 1 -0.821624 
+noeMatrix (normalized to diagonal) 0.000611688 -0.00392065 1 
+NOE diagonal(0) 0.00451327
+NOE diagonal(1) 0.00429196
+NOE diagonal(2) 0.899436
+Test OK Value calculated : 88.3681 is indeed ~=  88.3681
+Test OK Value calculated : 92.9248 is indeed ~=  92.9248
+Test OK Value calculated : 82.1624 is indeed ~=  82.1624
+Test OK Value calculated : 0.392065 is indeed ~=  0.392065
+Test OK Value calculated : -12.1901 is indeed ~=  -12.1901
+Test OK Value calculated : -0.0611688 is indeed ~=  -0.0611688
+Test OK Value calculated : 88.3681 is indeed ~=  88.3681
+Test OK Value calculated : 92.9248 is indeed ~=  92.9248
+Test OK Value calculated : 82.1624 is indeed ~=  82.1624
+Test OK Value calculated : 0.392065 is indeed ~=  0.392065
+Test OK Value calculated : -12.1901 is indeed ~=  -12.1901
+Test OK Value calculated : -0.0611688 is indeed ~=  -0.0611688
+===================================================================
+===================================================================
+===================================================================
+Start two Hs distance : 1 A : example 4===================================================================
+nb      : 2
+tau      : 200 ps
+Larmor   : 500 MHz
+rhoStar  : 0 s-1
+tMix     : 0.1 s
+cutoff   : 15 A
+Calculate: NOE 
+JValSigma HH: 2.65272e-10
+JValRho HH  : 1.09545e-09
+JValSigma HC: 5.77726e-10
+JValRho HC  : 1.49066e-09
+JValSigma HN: 7.74673e-10
+JValRho HN  : 1.64273e-09
+JValSigma HF: 2.82805e-10
+JValRho HF  : 1.12691e-09
+JValSigma CH: 5.77726e-10
+JValRho CH  : 1.33545e-09
+rho + rhoStar atom:0(Z=1): 62.4021 + 0 = 62.4021 (gamma:267.522)
+rho + rhoStar atom:1(Z=1): 62.4021 + 0 = 62.4021 (gamma:267.522)
+Distance matrix 
+0 1 True   =  0   1  
+1 1 True   =  1   0  
+0 1 Pseudo =  0   1  
+1 1 Pseudo =  1   0  
+Number of iter for diagonalization : 1
+Eigen Vectors 0.707107 -0.707107 
+Eigen Vectors 0.707107 0.707107 
+Before scaling according to gamma 
+noeMatrix (NOT normalized ) 0.00463235 -0.00420218 
+noeMatrix (NOT normalized ) -0.00420218 0.00463235 
+After scaling according to value(i,j) *= Gi*Gj/(GH*GH) 
+noeMatrix (NOT normalized ) 0.00463235 -0.00420218 
+noeMatrix (NOT normalized ) -0.00420218 0.00463235 
+noeMatrix (normalized to diagonal) 1 -0.907138 
+noeMatrix (normalized to diagonal) -0.907138 1 
+NOE diagonal(0) 0.00463235
+NOE diagonal(1) 0.00463235
+Test OK Value calculated : 90.7138 is indeed ~=  90.7138
+NOE                   : 90.7138 % example number: 4===================================================================
+Test OK Value calculated : 0.420218 is indeed ~=  0.420218
+Test OK Value calculated : -0.463235 is indeed ~=  -0.463235
+===================================================================
+===================================================================
+===================================================================
+Start two Hs distance : 1.1 A : example 8===================================================================
+nb      : 2
+tau      : 200 ps
+Larmor   : 500 MHz
+rhoStar  : 0 s-1
+tMix     : 0.1 s
+cutoff   : 15 A
+Calculate: NOE 
+JValSigma HH: 2.65272e-10
+JValRho HH  : 1.09545e-09
+JValSigma HC: 5.77726e-10
+JValRho HC  : 1.49066e-09
+JValSigma HN: 7.74673e-10
+JValRho HN  : 1.64273e-09
+JValSigma HF: 2.82805e-10
+JValRho HF  : 1.12691e-09
+JValSigma CH: 5.77726e-10
+JValRho CH  : 1.33545e-09
+rho + rhoStar atom:0(Z=1): 35.2243 + 0 = 35.2243 (gamma:267.522)
+rho + rhoStar atom:1(Z=1): 35.2243 + 0 = 35.2243 (gamma:267.522)
+Distance matrix 
+0 1 True   =  0   1.1  
+1 1 True   =  1.1   0  
+0 1 Pseudo =  0   1.1  
+1 1 Pseudo =  1.1   0  
+Number of iter for diagonalization : 1
+Eigen Vectors 0.707107 -0.707107 
+Eigen Vectors 0.707107 0.707107 
+Before scaling according to gamma 
+noeMatrix (NOT normalized ) 0.0409367 -0.0283539 
+noeMatrix (NOT normalized ) -0.0283539 0.0409367 
+After scaling according to value(i,j) *= Gi*Gj/(GH*GH) 
+noeMatrix (NOT normalized ) 0.0409367 -0.0283539 
+noeMatrix (NOT normalized ) -0.0283539 0.0409367 
+noeMatrix (normalized to diagonal) 1 -0.692628 
+noeMatrix (normalized to diagonal) -0.692628 1 
+NOE diagonal(0) 0.0409367
+NOE diagonal(1) 0.0409367
+NOE      (no diag)    : -0.0283539 % example number: 8===================================================================
+NOE      (no diag)    : -0.0283539 % example number: 8===================================================================
+NOE                   : -0.692628 % example number: 8===================================================================
+Test OK Value calculated : 69.2628 is indeed ~=  69.2628
+===================================================================
+===================================================================
+===================================================================
+Start two Hs distance : 3 A : example 21===================================================================
+nb      : 2
+tau      : 200 ps
+Larmor   : 500 MHz
+rhoStar  : 0 s-1
+tMix     : 0.1 s
+cutoff   : 15 A
+Calculate: NOE 
+JValSigma HH: 2.65272e-10
+JValRho HH  : 1.09545e-09
+JValSigma HC: 5.77726e-10
+JValRho HC  : 1.49066e-09
+JValSigma HN: 7.74673e-10
+JValRho HN  : 1.64273e-09
+JValSigma HF: 2.82805e-10
+JValRho HF  : 1.12691e-09
+JValSigma CH: 5.77726e-10
+JValRho CH  : 1.33545e-09
+rho + rhoStar atom:0(Z=1): 0.0855996 + 0 = 0.0855996 (gamma:267.522)
+rho + rhoStar atom:1(Z=1): 0.0855996 + 0 = 0.0855996 (gamma:267.522)
+Distance matrix 
+0 1 True   =  0   3  
+1 1 True   =  3   0  
+0 1 Pseudo =  0   3  
+1 1 Pseudo =  3   0  
+Number of iter for diagonalization : 1
+Eigen Vectors 0.707107 -0.707107 
+Eigen Vectors 0.707107 0.707107 
+Before scaling according to gamma 
+noeMatrix (NOT normalized ) 0.991479 -0.0020552 
+noeMatrix (NOT normalized ) -0.0020552 0.991479 
+After scaling according to value(i,j) *= Gi*Gj/(GH*GH) 
+noeMatrix (NOT normalized ) 0.991479 -0.0020552 
+noeMatrix (NOT normalized ) -0.0020552 0.991479 
+noeMatrix (normalized to diagonal) 1 -0.00207287 
+noeMatrix (normalized to diagonal) -0.00207287 1 
+NOE diagonal(0) 0.991479
+NOE diagonal(1) 0.991479
+Test OK Value calculated : 0.207287 is indeed ~=  0.207287
+NOE                   : 0.207287 % example number: 21===================================================================
+Test OK Value calculated : 0.20552 is indeed ~=  0.20552
+Test OK Value calculated : -99.1479 is indeed ~=  -99.1479
+===================================================================
+===================================================================
+===================================================================
+Start two Hs distance : 3.1 A : example number: 22===================================================================
+nb      : 2
+tau      : 200 ps
+Larmor   : 500 MHz
+rhoStar  : 0 s-1
+tMix     : 0.1 s
+cutoff   : 15 A
+Calculate: NOE 
+JValSigma HH: 2.65272e-10
+JValRho HH  : 1.09545e-09
+JValSigma HC: 5.77726e-10
+JValRho HC  : 1.49066e-09
+JValSigma HN: 7.74673e-10
+JValRho HN  : 1.64273e-09
+JValSigma HF: 2.82805e-10
+JValRho HF  : 1.12691e-09
+JValSigma CH: 5.77726e-10
+JValRho CH  : 1.33545e-09
+rho + rhoStar atom:0(Z=1): 0.0703119 + 0 = 0.0703119 (gamma:267.522)
+rho + rhoStar atom:1(Z=1): 0.0703119 + 0 = 0.0703119 (gamma:267.522)
+Distance matrix 
+0 1 True   =  0   3.1  
+1 1 True   =  3.1   0  
+0 1 Pseudo =  0   3.1  
+1 1 Pseudo =  3.1   0  
+Number of iter for diagonalization : 1
+Eigen Vectors 0.707107 -0.707107 
+Eigen Vectors 0.707107 0.707107 
+Before scaling according to gamma 
+noeMatrix (NOT normalized ) 0.992995 -0.00169074 
+noeMatrix (NOT normalized ) -0.00169074 0.992995 
+After scaling according to value(i,j) *= Gi*Gj/(GH*GH) 
+noeMatrix (NOT normalized ) 0.992995 -0.00169074 
+noeMatrix (NOT normalized ) -0.00169074 0.992995 
+noeMatrix (normalized to diagonal) 1 -0.00170266 
+noeMatrix (normalized to diagonal) -0.00170266 1 
+NOE diagonal(0) 0.992995
+NOE diagonal(1) 0.992995
+Test OK Value calculated : 0.170266 is indeed ~=  0.170266
+NOE                   : 0.170266 % example number: 22===================================================================
+NOE     distmeans     : -0.00207287/-0.00170266=1.21743 = 3.1^6 / 3.0^6 = 1.21743 example number: 22===================================================================
+Test OK Value calculated : 0.169074 is indeed ~=  0.169074
+Test OK Value calculated : -99.2995 is indeed ~=  -99.2995
+===================================================================
+===================================================================
+===================================================================
+Start three Hs distance Williamson paper: 1.5 A : example 100===================================================================
+Start three Hs distance Williamson paper: 1.5 A : example 100===================================================================
+Start three Hs distance Williamson paper: 3 A : example 100===================================================================
+nb      : 3
+tau      : 1 ps
+Larmor   : 400 MHz
+rhoStar  : 0 s-1
+tMix     : 0.15 s
+cutoff   : 15 A
+Calculate: NOE 
+JValSigma HH: 4.99985e-12
+JValRho HH  : 9.99983e-12
+JValSigma HC: 4.99994e-12
+JValRho HC  : 9.99994e-12
+JValSigma HN: 4.99998e-12
+JValRho HN  : 9.99996e-12
+JValSigma HF: 4.99986e-12
+JValRho HF  : 9.99984e-12
+JValSigma CH: 4.99994e-12
+JValRho CH  : 9.99992e-12
+rho + rhoStar atom:0(Z=1): 0.050791 + 0 = 0.050791 (gamma:267.522)
+rho + rhoStar atom:1(Z=1): 0.100019 + 0 = 0.100019 (gamma:267.522)
+rho + rhoStar atom:2(Z=1): 0.050791 + 0 = 0.050791 (gamma:267.522)
+Distance matrix 
+0 1 True   =  0   1.5   3  
+1 1 True   =  1.5   0   1.5  
+2 1 True   =  3   1.5   0  
+0 1 Pseudo =  0   1.5   3  
+1 1 Pseudo =  1.5   0   1.5  
+2 1 Pseudo =  3   1.5   0  
+Number of iter for diagonalization : 13
+Eigen Vectors 0.626145 0.328547 -0.707107 
+Eigen Vectors -0.464635 0.885502 7.05953e-17 
+Eigen Vectors 0.626145 0.328547 0.707107 
+Before scaling according to gamma 
+noeMatrix (NOT normalized ) 0.992417 -0.0037084 -5.11964e-05 
+noeMatrix (NOT normalized ) -0.0037084 0.985123 -0.0037084 
+noeMatrix (NOT normalized ) -5.11964e-05 -0.0037084 0.992417 
+After scaling according to value(i,j) *= Gi*Gj/(GH*GH) 
+noeMatrix (NOT normalized ) 0.992417 -0.0037084 -5.11964e-05 
+noeMatrix (NOT normalized ) -0.0037084 0.985123 -0.0037084 
+noeMatrix (NOT normalized ) -5.11964e-05 -0.0037084 0.992417 
+noeMatrix (normalized to diagonal) 1 -0.00373674 -5.15876e-05 
+noeMatrix (normalized to diagonal) -0.0037644 1 -0.0037644 
+noeMatrix (normalized to diagonal) -5.15876e-05 -0.00373674 1 
+NOE diagonal(0) 0.992417
+NOE diagonal(1) 0.985123
+NOE diagonal(2) 0.992417
+NOE    28.29 (SS) /transient:    : 0.373674 % example number: 100===================================================================
+NOE    -13.15         : 0.00515876 % example number: 100===================================================================
+NOE                   : 0.37644 % example number: 100===================================================================
+NOE    28.29          : 0.37644 % example number: 100===================================================================
+NOE    -13.15         : 0.00515876 % example number: 100===================================================================
+===================================================================
+===================================================================
+===================================================================
+Start 1H 19F distance : 1 A : example number: 5===================================================================
+nb      : 2
+tau      : 200 ps
+Larmor   : 500 MHz
+rhoStar  : 0 s-1
+tMix     : 0.1 s
+cutoff   : 15 A
+Calculate: NOE 
+JValSigma HH: 2.65272e-10
+JValRho HH  : 1.09545e-09
+JValSigma HC: 5.77726e-10
+JValRho HC  : 1.49066e-09
+JValSigma HN: 7.74673e-10
+JValRho HN  : 1.64273e-09
+JValSigma HF: 2.82805e-10
+JValRho HF  : 1.12691e-09
+JValSigma CH: 5.77726e-10
+JValRho CH  : 1.33545e-09
+rho + rhoStar atom:0(Z=1): 56.0782 + 0 = 56.0782 (gamma:267.522)
+rho + rhoStar atom:1(Z=9): 56.8082 + 0 = 56.8082 (gamma:251.662)
+Distance matrix 
+0 1 True   =  0   1  
+1 9 True   =  1   0  
+0 1 Pseudo =  0   1  
+1 9 Pseudo =  1   0  
+Number of iter for diagonalization : 1
+Eigen Vectors 0.716098 0.698 
+Eigen Vectors -0.698 0.716098 
+Before scaling according to gamma 
+noeMatrix (NOT normalized ) 0.00796495 -0.00693526 
+noeMatrix (NOT normalized ) -0.00693526 0.00760984 
+After scaling according to value(i,j) *= Gi*Gj/(GH*GH) 
+noeMatrix (NOT normalized ) 0.00796495 -0.0065241 
+noeMatrix (NOT normalized ) -0.0065241 0.00673428 
+noeMatrix (normalized to diagonal) 1 -0.819101 
+noeMatrix (normalized to diagonal) -0.968789 1 
+NOE diagonal(0) 0.00796495
+NOE diagonal(1) 0.00673428
+NOE  het     1H       : 81.9101 % example number: 5===================================================================
+NOE  het    19F       : 96.8789 % example number: 5===================================================================
+===================================================================
+===================================================================
+===================================================================
+Start 1H 13C distance : 1 A : example number: 6===================================================================
+nb      : 2
+tau      : 200 ps
+Larmor   : 500 MHz
+rhoStar  : 0 s-1
+tMix     : 0.1 s
+cutoff   : 15 A
+Calculate: NOE 
+JValSigma HH: 2.65272e-10
+JValRho HH  : 1.09545e-09
+JValSigma HC: 5.77726e-10
+JValRho HC  : 1.49066e-09
+JValSigma HN: 7.74673e-10
+JValRho HN  : 1.64273e-09
+JValSigma HF: 2.82805e-10
+JValRho HF  : 1.12691e-09
+JValSigma CH: 5.77726e-10
+JValRho CH  : 1.33545e-09
+rho + rhoStar atom:0(Z=1): 4.812 + 0 = 4.812 (gamma:267.522)
+rho + rhoStar atom:1(Z=6): 5.37125 + 0 = 5.37125 (gamma:67.2828)
+Distance matrix 
+0 1 True   =  0   1  
+1 6 True   =  1   0  
+0 1 Pseudo =  0   1  
+1 6 Pseudo =  1   0  
+Number of iter for diagonalization : 1
+Eigen Vectors 0.752705 0.658357 
+Eigen Vectors -0.658357 0.752705 
+Before scaling according to gamma 
+noeMatrix (NOT normalized ) 0.631234 -0.126032 
+noeMatrix (NOT normalized ) -0.126032 0.597375 
+After scaling according to value(i,j) *= Gi*Gj/(GH*GH) 
+noeMatrix (NOT normalized ) 0.631234 -0.0316975 
+noeMatrix (NOT normalized ) -0.0316975 0.0377864 
+noeMatrix (normalized to diagonal) 1 -0.0502151 
+noeMatrix (normalized to diagonal) -0.83886 1 
+NOE diagonal(0) 0.631234
+NOE diagonal(1) 0.0377864
+NOE  het     1H       : 5.02151 % example number: 6===================================================================
+NOE  het    13C       : 83.886 % example number: 6===================================================================
+========other diag...==
+NOE  het     1H       : 83.886 % example number: 6===================================================================
+NOE  het    13C       : 5.02151 % example number: 6===================================================================
+===================================================================
+===================================================================
+===================================================================
+Start 1H 15N distance : 1 A : example number: 7===================================================================
+nb      : 2
+tau      : 200 ps
+Larmor   : 500 MHz
+rhoStar  : 0 s-1
+tMix     : 0.1 s
+cutoff   : 15 A
+Calculate: NOE 
+JValSigma HH: 2.65272e-10
+JValRho HH  : 1.09545e-09
+JValSigma HC: 5.77726e-10
+JValRho HC  : 1.49066e-09
+JValSigma HN: 7.74673e-10
+JValRho HN  : 1.64273e-09
+JValSigma HF: 2.82805e-10
+JValRho HF  : 1.12691e-09
+JValSigma CH: 5.77726e-10
+JValRho CH  : 1.33545e-09
+rho + rhoStar atom:0(Z=1): 0.86343 + 0 = 0.86343 (gamma:267.522)
+rho + rhoStar atom:1(Z=7): 0.961402 + 0 = 0.961402 (gamma:-27.116)
+Distance matrix 
+0 1 True   =  0   1  
+1 7 True   =  1   0  
+0 1 Pseudo =  0   1  
+1 7 Pseudo =  1   0  
+Number of iter for diagonalization : 1
+Eigen Vectors 0.744118 0.668049 
+Eigen Vectors -0.668049 0.744118 
+Before scaling according to gamma 
+noeMatrix (NOT normalized ) 0.918219 -0.0413983 
+noeMatrix (NOT normalized ) -0.0413983 0.909273 
+After scaling according to value(i,j) *= Gi*Gj/(GH*GH) 
+noeMatrix (NOT normalized ) 0.918219 0.00419613 
+noeMatrix (NOT normalized ) 0.00419613 0.0093417 
+noeMatrix (normalized to diagonal) 1 0.00456985 
+noeMatrix (normalized to diagonal) 0.449182 1 
+NOE diagonal(0) 0.918219
+NOE diagonal(1) 0.0093417
+NOE  het     1H       : -0.456985 % example number: 7===================================================================
+NOE  het    15N       : -44.9182 % example number: 7===================================================================
+========other diag...==
+NOE  het     1H       : -44.9182 % example number: 7===================================================================
+NOE  het    15N       : -0.456985 % example number: 7===================================================================
+===================================================================
+===================================================================
+===================================================================
+Start example number: 1000===================================================================
+nb      : 21
+tau      : 80 ps
+Larmor   : 400 MHz
+rhoStar  : 0.1 s-1
+tMix     : 0.5 s
+cutoff   : 10 A
+Calculate: NOE 
+JValSigma HH: 3.33186e-10
+JValRho HH  : 7.23861e-10
+JValSigma HC: 3.73189e-10
+JValRho HC  : 7.69033e-10
+JValSigma HN: 3.88565e-10
+JValRho HN  : 7.80986e-10
+JValSigma HF: 3.36584e-10
+JValRho HF  : 7.28272e-10
+JValSigma CH: 3.73189e-10
+JValRho CH  : 7.6032e-10
+rho + rhoStar atom:12(Z=1): 0.203345 + 0.1 = 0.303345 (gamma:267.522)
+rho + rhoStar atom:13(Z=1): 0.476886 + 0.1 = 0.576886 (gamma:267.522)
+rho + rhoStar atom:14(Z=1): 0.405269 + 0.1 = 0.505269 (gamma:267.522)
+rho + rhoStar atom:15(Z=1): 0.155664 + 0.1 = 0.255664 (gamma:267.522)
+rho + rhoStar atom:18(Z=1): 0.123439 + 0.1 = 0.223439 (gamma:267.522)
+Distance matrix 
+0 6 True   =  0   1.41546   2.46192   2.84218   2.45732   1.41558   2.74095   4.073   4.56996   1.53374   2.51986   2.65611   3.43481   2.17688   2.11123   2.79641   2.77025   3.47915   3.07864   3.55592   2.8843  
+1 6 True   =  1.41546   0   1.41836   2.44377   2.80505   2.41714   1.74958   2.75706   4.06301   2.65501   3.59169   3.22042   3.89422   3.41488   3.37946   3.50004   3.97347   4.54778   3.31279   4.28702   3.18539  
+2 6 True   =  2.46192   1.41836   0   1.40269   2.41704   2.78672   2.72594   1.74504   2.75778   3.92659   4.75553   4.62287   3.40881   3.87695   4.50626   4.62248   4.90977   5.78412   4.71705   5.67894   4.49529  
+3 6 True   =  2.84218   2.44377   1.40269   0   1.39048   2.41125   4.02692   2.71794   1.72935   4.36706   5.06764   5.39136   2.15766   3.38439   4.71845   5.08895   4.9188   6.12917   5.65591   6.358   5.33924  
+4 6 True   =  2.45732   2.80505   2.41704   1.39048   0   1.39249   4.53521   4.01421   2.66722   3.79697   4.37703   5.08149   1.0894   2.13264   3.92467   4.62963   4.01278   5.39205   5.52417   5.90144   5.17286  
+5 6 True   =  1.41558   2.41714   2.78672   2.41125   1.39249   0   4.02619   4.53145   3.97546   2.47994   3.10509   3.86625   2.14895   1.0907   2.56746   3.54174   2.82346   4.06872   4.4057   4.59631   4.09354  
+6 9 True   =  2.74095   1.74958   2.72594   4.02692   4.53521   4.02619   0   3.16259   5.46947   3.26294   4.25866   2.95588   5.62316   4.90677   4.08307   4.01978   4.9849   4.97018   2.7013   4.01624   2.671  
+7 9 True   =  4.073   2.75706   1.74504   2.71794   4.01421   4.53145   3.16259   0   3.19376   5.41188   6.23579   5.79019   4.87559   5.62137   6.07521   5.92374   6.5046   7.22773   5.67734   6.88376   5.5181  
+8 9 True   =  4.56996   4.06301   2.75778   1.72935   2.66722   3.97546   5.46947   3.19376   0   6.09011   6.72057   7.10768   2.79529   4.79895   6.38795   6.68893   6.46466   7.79365   7.34017   8.08154   6.99648  
+9 6 True   =  1.53374   2.65501   3.92659   4.36706   3.79697   2.47994   3.26294   5.41188   6.09011   0   1.53643   1.53018   4.62753   2.63416   1.1006   2.18629   2.19073   2.18126   2.19117   2.16599   2.18644  
+10 6 True   =  2.51986   3.59169   4.75553   5.06764   4.37703   3.10509   4.25866   6.23579   6.72057   1.53643   0   2.49701   5.0648   2.99857   2.13631   1.09503   1.09557   1.09558   2.70979   2.76845   3.46801  
+11 6 True   =  2.65611   3.22042   4.62287   5.39136   5.08149   3.86625   2.95588   5.79019   7.10768   1.53018   2.49701   0   5.99693   4.11743   2.08871   2.8519   3.45775   2.65715   1.09492   1.09654   1.09396  
+12 1 True   =  3.43481   3.89422   3.40881   2.15766   1.0894   2.14895   5.62316   4.87559   2.79529   4.62753   5.0648   5.99693   0   2.43803   4.59207   5.39061   4.503   6.02956   6.49878   6.73189   6.11578  
+13 1 True   =  2.17688   3.41488   3.87695   3.38439   2.13264   1.0907   4.90677   5.62137   4.79895   2.63416   2.99857   4.11743   2.43803   0   2.3714   3.6783   2.45304   3.79886   4.78041   4.62   4.46327  
+14 1 True   =  2.11123   3.37946   4.50626   4.71845   3.92467   2.56746   4.08307   6.07521   6.38795   1.1006   2.13631   2.08871   4.59207   2.3714   0   3.06307   2.46194   2.49863   3.02546   2.3416   2.50017  
+15 1 True   =  2.79641   3.50004   4.62248   5.08895   4.62963   3.54174   4.01978   5.92374   6.68893   2.18629   1.09503   2.8519   5.39061   3.6783   3.06307   0   1.7692   1.77475   2.63499   3.28777   3.82715  
+16 1 True   =  2.77025   3.97347   4.90977   4.9188   4.01278   2.82346   4.9849   6.5046   6.46466   2.19073   1.09557   3.45775   4.503   2.45304   2.46194   1.7692   0   1.76175   3.77236   3.70642   4.33106  
+17 1 True   =  3.47915   4.54778   5.78412   6.12917   5.39205   4.06872   4.97018   7.22773   7.79365   2.18126   1.09558   2.65715   6.02956   3.79886   2.49863   1.77475   1.76175   0   2.87694   2.48043   3.70387  
+18 1 True   =  3.07864   3.31279   4.71705   5.65591   5.52417   4.4057   2.7013   5.67734   7.34017   2.19117   2.70979   1.09492   6.49878   4.78041   3.02546   2.63499   3.77236   2.87694   0   1.74907   1.78888  
+19 1 True   =  3.55592   4.28702   5.67894   6.358   5.90144   4.59631   4.01624   6.88376   8.08154   2.16599   2.76845   1.09654   6.73189   4.62   2.3416   3.28777   3.70642   2.48043   1.74907   0   1.76253  
+20 1 True   =  2.8843   3.18539   4.49529   5.33924   5.17286   4.09354   2.671   5.5181   6.99648   2.18644   3.46801   1.09396   6.11578   4.46327   2.50017   3.82715   4.33106   3.70387   1.78888   1.76253   0  
+0 6 Pseudo =  0  (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)  Not identical
+1 6 Pseudo = (0)  0  (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)  Not identical
+2 6 Pseudo = (0) (0)  0  (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)  Not identical
+3 6 Pseudo = (0) (0) (0)  0  (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)  Not identical
+4 6 Pseudo = (0) (0) (0) (0)  0  (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)  Not identical
+5 6 Pseudo = (0) (0) (0) (0) (0)  0  (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)  Not identical
+6 9 Pseudo = (0) (0) (0) (0) (0) (0)  0  (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)  Not identical
+7 9 Pseudo = (0) (0) (0) (0) (0) (0) (0)  0  (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)  Not identical
+8 9 Pseudo = (0) (0) (0) (0) (0) (0) (0) (0)  0  (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)  Not identical
+9 6 Pseudo = (0) (0) (0) (0) (0) (0) (0) (0) (0)  0  (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)  Not identical
+10 6 Pseudo = (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)  0  (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)  Not identical
+11 6 Pseudo = (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)  0  (0) (0) (0) (0) (0) (0) (0) (0) (0)  Not identical
+12 1 Pseudo = (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)  0   2.43803   4.59207  (5.21328) (5.21328) (5.21328)  6.50568  (6.50568) (6.50568)  Not identical
+13 1 Pseudo = (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)  2.43803   0   2.3714  (3.11666) (3.11666) (3.11666) (4.73026) (4.73026) (4.73026)  Not identical
+14 1 Pseudo = (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)  4.59207   2.3714   0  (2.83681) (2.83681) (2.83681) (2.77711) (2.77711) (2.77711)  Not identical
+15 1 Pseudo = (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (5.21328) (3.11666) (2.83681) (1.28646) (1.28646) (1.28646) (3.34381) (3.34381) (3.34381)  Not identical
+16 1 Pseudo = (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (5.21328) (3.11666) (2.83681) (1.28646) (1.28646) (1.28646) (3.34381) (3.34381) (3.34381)  Not identical
+17 1 Pseudo = (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (5.21328) (3.11666) (2.83681) (1.28646) (1.28646) (1.28646) (3.34381) (3.34381) (3.34381)  Not identical
+18 1 Pseudo = (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)  6.50568  (4.73026) (2.77711) (3.3471) (3.3471) (3.3471) (1.28496) (1.28496) (1.28496)  Not identical
+19 1 Pseudo = (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (6.50568) (4.73026) (2.77711) (3.3471) (3.3471) (3.3471) (1.28496) (1.28496) (1.28496)  Not identical
+20 1 Pseudo = (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (6.50568) (4.73026) (2.77711) (3.3471) (3.3471) (3.3471) (1.28496) (1.28496) (1.28496)  Not identical
+Number of iter for diagonalization : 48
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0.934313 0.199981 -0.288758 -0.000534311 0 0 -0.0607039 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 -0.320793 0.806703 -0.492349 -0.00654618 0 0 0.0622231 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0.122071 0.545942 0.800773 -0.169819 0 0 -0.130271 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 -0.000967795 0.0897317 0.105706 0.963121 0 0 -0.230591 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0.0961679 0.0559741 0.147651 0.208607 0 0 0.960365 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+Before scaling according to gamma 
+noeMatrix (NOT normalized ) 0.860109 -0.0362974 0.000133383 -0.000215427 -0.000215427 -0.000215427 -9.08955e-05 -9.08955e-05 -9.08955e-05 
+noeMatrix (NOT normalized ) -0.0362974 0.751351 -0.0406553 -0.00802613 -0.00802613 -0.00802613 -0.000220364 -0.000220364 -0.000220364 
+noeMatrix (NOT normalized ) 0.000133383 -0.0406553 0.77815 -0.0147928 -0.0147928 -0.0147928 -0.0171965 -0.0171965 -0.0171965 
+noeMatrix (NOT normalized ) -0.000215427 -0.00802613 -0.0147928 0.880203 0.880203 0.880203 -0.00582632 -0.00582632 -0.00582632 
+noeMatrix (NOT normalized ) -0.000215427 -0.00802613 -0.0147928 0.880203 0.880203 0.880203 -0.00582632 -0.00582632 -0.00582632 
+noeMatrix (NOT normalized ) -0.000215427 -0.00802613 -0.0147928 0.880203 0.880203 0.880203 -0.00582632 -0.00582632 -0.00582632 
+noeMatrix (NOT normalized ) -9.08955e-05 -0.000220364 -0.0171965 -0.00582632 -0.00582632 -0.00582632 0.894497 0.894497 0.894497 
+noeMatrix (NOT normalized ) -9.08955e-05 -0.000220364 -0.0171965 -0.00582632 -0.00582632 -0.00582632 0.894497 0.894497 0.894497 
+noeMatrix (NOT normalized ) -9.08955e-05 -0.000220364 -0.0171965 -0.00582632 -0.00582632 -0.00582632 0.894497 0.894497 0.894497 
+After scaling according to value(i,j) *= Gi*Gj/(GH*GH) 
+noeMatrix (NOT normalized ) 0.860109 -0.0362974 0.000133383 -0.000215427 -0.000215427 -0.000215427 -9.08955e-05 -9.08955e-05 -9.08955e-05 
+noeMatrix (NOT normalized ) -0.0362974 0.751351 -0.0406553 -0.00802613 -0.00802613 -0.00802613 -0.000220364 -0.000220364 -0.000220364 
+noeMatrix (NOT normalized ) 0.000133383 -0.0406553 0.77815 -0.0147928 -0.0147928 -0.0147928 -0.0171965 -0.0171965 -0.0171965 
+noeMatrix (NOT normalized ) -0.000215427 -0.00802613 -0.0147928 0.880203 0.880203 0.880203 -0.00582632 -0.00582632 -0.00582632 
+noeMatrix (NOT normalized ) -0.000215427 -0.00802613 -0.0147928 0.880203 0.880203 0.880203 -0.00582632 -0.00582632 -0.00582632 
+noeMatrix (NOT normalized ) -0.000215427 -0.00802613 -0.0147928 0.880203 0.880203 0.880203 -0.00582632 -0.00582632 -0.00582632 
+noeMatrix (NOT normalized ) -9.08955e-05 -0.000220364 -0.0171965 -0.00582632 -0.00582632 -0.00582632 0.894497 0.894497 0.894497 
+noeMatrix (NOT normalized ) -9.08955e-05 -0.000220364 -0.0171965 -0.00582632 -0.00582632 -0.00582632 0.894497 0.894497 0.894497 
+noeMatrix (NOT normalized ) -9.08955e-05 -0.000220364 -0.0171965 -0.00582632 -0.00582632 -0.00582632 0.894497 0.894497 0.894497 
+noeMatrix (normalized to diagonal) 1 -0.0422009 0.000155076 -0.000250465 -0.000250465 -0.000250465 -0.000105679 -0.000105679 -0.000105679 
+noeMatrix (normalized to diagonal) -0.0483095 1 -0.0541096 -0.0106823 -0.0106823 -0.0106823 -0.00029329 -0.00029329 -0.00029329 
+noeMatrix (normalized to diagonal) 0.00017141 -0.0522461 1 -0.0190102 -0.0190102 -0.0190102 -0.0220992 -0.0220992 -0.0220992 
+noeMatrix (normalized to diagonal) -0.000244747 -0.0091185 -0.0168061 1 1 1 -0.00661929 -0.00661929 -0.00661929 
+noeMatrix (normalized to diagonal) -0.000244747 -0.0091185 -0.0168061 1 1 1 -0.00661929 -0.00661929 -0.00661929 
+noeMatrix (normalized to diagonal) -0.000244747 -0.0091185 -0.0168061 1 1 1 -0.00661929 -0.00661929 -0.00661929 
+noeMatrix (normalized to diagonal) -0.000101616 -0.000246355 -0.0192248 -0.00651351 -0.00651351 -0.00651351 1 1 1 
+noeMatrix (normalized to diagonal) -0.000101616 -0.000246355 -0.0192248 -0.00651351 -0.00651351 -0.00651351 1 1 1 
+noeMatrix (normalized to diagonal) -0.000101616 -0.000246355 -0.0192248 -0.00651351 -0.00651351 -0.00651351 1 1 1 
+NOE diagonal(12) 0.860109
+NOE diagonal(13) 0.751351
+NOE diagonal(14) 0.77815
+NOE diagonal(15) 0.880203
+NOE diagonal(16) 0.880203
+NOE diagonal(17) 0.880203
+NOE diagonal(18) 0.894497
+NOE diagonal(19) 0.894497
+NOE diagonal(20) 0.894497
+Test OK Value calculated : -0.0362974 is indeed ~=  -0.0362974
+Test OK Value calculated : -0.0406553 is indeed ~=  -0.0406553
+Test OK Value calculated : -0.0422009 is indeed ~=  -0.042201
+Test OK Value calculated : -0.0171965 is indeed ~=  -0.0171962
+Test OK Value calculated : -0.00582632 is indeed ~=  -0.00582631
+Test OK Value calculated : -0.000215427 is indeed ~=  -0.000215428
+Test OK Value calculated : -0.00802613 is indeed ~=  -0.00802614
+Test OK Value calculated : -0.0147928 is indeed ~=  -0.0147928
+Test OK Value calculated : -9.08955e-05 is indeed ~=  -9.08982e-05
+Test OK Value calculated : -0.000220364 is indeed ~=  -0.000220373
+Test OK Value calculated : -0.0171965 is indeed ~=  -0.0171965
+Test OK Value calculated : -0.0171965 is indeed ~=  -0.0171965
+===================================================================
+===================================================================
+===================================================================
+Start example number: 1001===================================================================
+nb      : 21
+tau      : 80 ps
+Larmor   : 400 MHz
+rhoStar  : 0.1 s-1
+tMix     : 0.5 s
+cutoff   : 10 A
+Calculate: NOE 
+JValSigma HH: 3.33186e-10
+JValRho HH  : 7.23861e-10
+JValSigma HC: 3.73189e-10
+JValRho HC  : 7.69033e-10
+JValSigma HN: 3.88565e-10
+JValRho HN  : 7.80986e-10
+JValSigma HF: 3.36584e-10
+JValRho HF  : 7.28272e-10
+JValSigma CH: 3.73189e-10
+JValRho CH  : 7.6032e-10
+rho + rhoStar atom:12(Z=1): 0.203834 + 0.1 = 0.303834 (gamma:267.522)
+rho + rhoStar atom:13(Z=1): 0.505724 + 0.1 = 0.605724 (gamma:267.522)
+rho + rhoStar atom:14(Z=1): 0.528696 + 0.1 = 0.628696 (gamma:267.522)
+rho + rhoStar atom:15(Z=1): 0.262908 + 0.1 = 0.362908 (gamma:267.522)
+rho + rhoStar atom:18(Z=1): 0.214828 + 0.1 = 0.314828 (gamma:267.522)
+Distance matrix 
+0 6 True   =  0   1.41546   2.46192   2.84218   2.45732   1.41558   2.74095   4.073   4.56996   1.53374   2.51986   2.65611   3.43481   2.17688   2.11123   2.79641   2.77025   3.47915   3.07864   3.55592   2.8843  
+1 6 True   =  1.41546   0   1.41836   2.44377   2.80505   2.41714   1.74958   2.75706   4.06301   2.65501   3.59169   3.22042   3.89422   3.41488   3.37946   3.50004   3.97347   4.54778   3.31279   4.28702   3.18539  
+2 6 True   =  2.46192   1.41836   0   1.40269   2.41704   2.78672   2.72594   1.74504   2.75778   3.92659   4.75553   4.62287   3.40881   3.87695   4.50626   4.62248   4.90977   5.78412   4.71705   5.67894   4.49529  
+3 6 True   =  2.84218   2.44377   1.40269   0   1.39048   2.41125   4.02692   2.71794   1.72935   4.36706   5.06764   5.39136   2.15766   3.38439   4.71845   5.08895   4.9188   6.12917   5.65591   6.358   5.33924  
+4 6 True   =  2.45732   2.80505   2.41704   1.39048   0   1.39249   4.53521   4.01421   2.66722   3.79697   4.37703   5.08149   1.0894   2.13264   3.92467   4.62963   4.01278   5.39205   5.52417   5.90144   5.17286  
+5 6 True   =  1.41558   2.41714   2.78672   2.41125   1.39249   0   4.02619   4.53145   3.97546   2.47994   3.10509   3.86625   2.14895   1.0907   2.56746   3.54174   2.82346   4.06872   4.4057   4.59631   4.09354  
+6 9 True   =  2.74095   1.74958   2.72594   4.02692   4.53521   4.02619   0   3.16259   5.46947   3.26294   4.25866   2.95588   5.62316   4.90677   4.08307   4.01978   4.9849   4.97018   2.7013   4.01624   2.671  
+7 9 True   =  4.073   2.75706   1.74504   2.71794   4.01421   4.53145   3.16259   0   3.19376   5.41188   6.23579   5.79019   4.87559   5.62137   6.07521   5.92374   6.5046   7.22773   5.67734   6.88376   5.5181  
+8 9 True   =  4.56996   4.06301   2.75778   1.72935   2.66722   3.97546   5.46947   3.19376   0   6.09011   6.72057   7.10768   2.79529   4.79895   6.38795   6.68893   6.46466   7.79365   7.34017   8.08154   6.99648  
+9 6 True   =  1.53374   2.65501   3.92659   4.36706   3.79697   2.47994   3.26294   5.41188   6.09011   0   1.53643   1.53018   4.62753   2.63416   1.1006   2.18629   2.19073   2.18126   2.19117   2.16599   2.18644  
+10 6 True   =  2.51986   3.59169   4.75553   5.06764   4.37703   3.10509   4.25866   6.23579   6.72057   1.53643   0   2.49701   5.0648   2.99857   2.13631   1.09503   1.09557   1.09558   2.70979   2.76845   3.46801  
+11 6 True   =  2.65611   3.22042   4.62287   5.39136   5.08149   3.86625   2.95588   5.79019   7.10768   1.53018   2.49701   0   5.99693   4.11743   2.08871   2.8519   3.45775   2.65715   1.09492   1.09654   1.09396  
+12 1 True   =  3.43481   3.89422   3.40881   2.15766   1.0894   2.14895   5.62316   4.87559   2.79529   4.62753   5.0648   5.99693   0   2.43803   4.59207   5.39061   4.503   6.02956   6.49878   6.73189   6.11578  
+13 1 True   =  2.17688   3.41488   3.87695   3.38439   2.13264   1.0907   4.90677   5.62137   4.79895   2.63416   2.99857   4.11743   2.43803   0   2.3714   3.6783   2.45304   3.79886   4.78041   4.62   4.46327  
+14 1 True   =  2.11123   3.37946   4.50626   4.71845   3.92467   2.56746   4.08307   6.07521   6.38795   1.1006   2.13631   2.08871   4.59207   2.3714   0   3.06307   2.46194   2.49863   3.02546   2.3416   2.50017  
+15 1 True   =  2.79641   3.50004   4.62248   5.08895   4.62963   3.54174   4.01978   5.92374   6.68893   2.18629   1.09503   2.8519   5.39061   3.6783   3.06307   0   1.7692   1.77475   2.63499   3.28777   3.82715  
+16 1 True   =  2.77025   3.97347   4.90977   4.9188   4.01278   2.82346   4.9849   6.5046   6.46466   2.19073   1.09557   3.45775   4.503   2.45304   2.46194   1.7692   0   1.76175   3.77236   3.70642   4.33106  
+17 1 True   =  3.47915   4.54778   5.78412   6.12917   5.39205   4.06872   4.97018   7.22773   7.79365   2.18126   1.09558   2.65715   6.02956   3.79886   2.49863   1.77475   1.76175   0   2.87694   2.48043   3.70387  
+18 1 True   =  3.07864   3.31279   4.71705   5.65591   5.52417   4.4057   2.7013   5.67734   7.34017   2.19117   2.70979   1.09492   6.49878   4.78041   3.02546   2.63499   3.77236   2.87694   0   1.74907   1.78888  
+19 1 True   =  3.55592   4.28702   5.67894   6.358   5.90144   4.59631   4.01624   6.88376   8.08154   2.16599   2.76845   1.09654   6.73189   4.62   2.3416   3.28777   3.70642   2.48043   1.74907   0   1.76253  
+20 1 True   =  2.8843   3.18539   4.49529   5.33924   5.17286   4.09354   2.671   5.5181   6.99648   2.18644   3.46801   1.09396   6.11578   4.46327   2.50017   3.82715   4.33106   3.70387   1.78888   1.76253   0  
+0 6 Pseudo =  0  (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)  Not identical
+1 6 Pseudo = (0)  0  (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)  Not identical
+2 6 Pseudo = (0) (0)  0  (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)  Not identical
+3 6 Pseudo = (0) (0) (0)  0  (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)  Not identical
+4 6 Pseudo = (0) (0) (0) (0)  0  (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)  Not identical
+5 6 Pseudo = (0) (0) (0) (0) (0)  0  (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)  Not identical
+6 9 Pseudo = (0) (0) (0) (0) (0) (0)  0  (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)  Not identical
+7 9 Pseudo = (0) (0) (0) (0) (0) (0) (0)  0  (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)  Not identical
+8 9 Pseudo = (0) (0) (0) (0) (0) (0) (0) (0)  0  (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)  Not identical
+9 6 Pseudo = (0) (0) (0) (0) (0) (0) (0) (0) (0)  0  (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)  Not identical
+10 6 Pseudo = (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)  0  (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)  Not identical
+11 6 Pseudo = (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)  0  (0) (0) (0) (0) (0) (0) (0) (0) (0)  Not identical
+12 1 Pseudo = (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)  0   2.43803   4.59207  (5.04703) (5.04703) (5.04703) (6.41294) (6.41294) (6.41294)  Not identical
+13 1 Pseudo = (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)  2.43803   0   2.3714  (2.87377) (2.87377) (2.87377) (4.60858) (4.60858) (4.60858)  Not identical
+14 1 Pseudo = (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)  4.59207   2.3714   0  (2.59557) (2.59557) (2.59557) (2.52907) (2.52907) (2.52907)  Not identical
+15 1 Pseudo = (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (5.04703) (2.87377) (2.59557)  0  (0) (0) (3.03893) (3.03893) (3.03893)  Not identical
+16 1 Pseudo = (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (5.04703) (2.87377) (2.59557) (0)  0  (0) (3.03893) (3.03893) (3.03893)  Not identical
+17 1 Pseudo = (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (5.04703) (2.87377) (2.59557) (0) (0)  0  (3.03893) (3.03893) (3.03893)  Not identical
+18 1 Pseudo = (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (6.41294) (4.60858) (2.52907) (3.03893) (3.03893) (3.03893)  0  (0) (0)  Not identical
+19 1 Pseudo = (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (6.41294) (4.60858) (2.52907) (3.03893) (3.03893) (3.03893) (0)  0  (0)  Not identical
+20 1 Pseudo = (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (6.41294) (4.60858) (2.52907) (3.03893) (3.03893) (3.03893) (0) (0)  0   Not identical
+Number of iter for diagonalization : 48
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0.90542 0.263379 0.133337 -0.0206719 0 0 0.304367 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 -0.294149 0.705389 0.644386 -0.0177107 0 0 -0.0188658 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0.122884 -0.616607 0.719539 -0.24518 0 0 -0.163847 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0.0869878 -0.107563 0.178537 0.957599 0 0 -0.178865 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 -0.266501 -0.203184 0.131821 0.148831 0 0 0.920959 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+Before scaling according to gamma 
+noeMatrix (NOT normalized ) 0.859894 -0.0360377 0.00013659 -0.000174774 -0.000174774 -0.000174774 -9.37296e-05 -9.37296e-05 -9.37296e-05 
+noeMatrix (NOT normalized ) -0.0360377 0.740645 -0.0390121 -0.0125992 -0.0125992 -0.0125992 3.91228e-05 3.91228e-05 3.91228e-05 
+noeMatrix (NOT normalized ) 0.00013659 -0.0390121 0.732173 -0.0237411 -0.0237411 -0.0237411 -0.0285302 -0.0285302 -0.0285302 
+noeMatrix (NOT normalized ) -0.000174774 -0.0125992 -0.0237411 0.834605 0.834605 0.834605 -0.00972003 -0.00972003 -0.00972003 
+noeMatrix (NOT normalized ) -0.000174774 -0.0125992 -0.0237411 0.834605 0.834605 0.834605 -0.00972003 -0.00972003 -0.00972003 
+noeMatrix (NOT normalized ) -0.000174774 -0.0125992 -0.0237411 0.834605 0.834605 0.834605 -0.00972003 -0.00972003 -0.00972003 
+noeMatrix (NOT normalized ) -9.37296e-05 3.91228e-05 -0.0285302 -0.00972003 -0.00972003 -0.00972003 0.854942 0.854942 0.854942 
+noeMatrix (NOT normalized ) -9.37296e-05 3.91228e-05 -0.0285302 -0.00972003 -0.00972003 -0.00972003 0.854942 0.854942 0.854942 
+noeMatrix (NOT normalized ) -9.37296e-05 3.91228e-05 -0.0285302 -0.00972003 -0.00972003 -0.00972003 0.854942 0.854942 0.854942 
+After scaling according to value(i,j) *= Gi*Gj/(GH*GH) 
+noeMatrix (NOT normalized ) 0.859894 -0.0360377 0.00013659 -0.000174774 -0.000174774 -0.000174774 -9.37296e-05 -9.37296e-05 -9.37296e-05 
+noeMatrix (NOT normalized ) -0.0360377 0.740645 -0.0390121 -0.0125992 -0.0125992 -0.0125992 3.91228e-05 3.91228e-05 3.91228e-05 
+noeMatrix (NOT normalized ) 0.00013659 -0.0390121 0.732173 -0.0237411 -0.0237411 -0.0237411 -0.0285302 -0.0285302 -0.0285302 
+noeMatrix (NOT normalized ) -0.000174774 -0.0125992 -0.0237411 0.834605 0.834605 0.834605 -0.00972003 -0.00972003 -0.00972003 
+noeMatrix (NOT normalized ) -0.000174774 -0.0125992 -0.0237411 0.834605 0.834605 0.834605 -0.00972003 -0.00972003 -0.00972003 
+noeMatrix (NOT normalized ) -0.000174774 -0.0125992 -0.0237411 0.834605 0.834605 0.834605 -0.00972003 -0.00972003 -0.00972003 
+noeMatrix (NOT normalized ) -9.37296e-05 3.91228e-05 -0.0285302 -0.00972003 -0.00972003 -0.00972003 0.854942 0.854942 0.854942 
+noeMatrix (NOT normalized ) -9.37296e-05 3.91228e-05 -0.0285302 -0.00972003 -0.00972003 -0.00972003 0.854942 0.854942 0.854942 
+noeMatrix (NOT normalized ) -9.37296e-05 3.91228e-05 -0.0285302 -0.00972003 -0.00972003 -0.00972003 0.854942 0.854942 0.854942 
+noeMatrix (normalized to diagonal) 1 -0.0419094 0.000158845 -0.000203251 -0.000203251 -0.000203251 -0.000109001 -0.000109001 -0.000109001 
+noeMatrix (normalized to diagonal) -0.0486572 1 -0.0526732 -0.0170112 -0.0170112 -0.0170112 5.28226e-05 5.28226e-05 5.28226e-05 
+noeMatrix (normalized to diagonal) 0.000186554 -0.0532827 1 -0.0324255 -0.0324255 -0.0324255 -0.0389664 -0.0389664 -0.0389664 
+noeMatrix (normalized to diagonal) -0.000209409 -0.015096 -0.0284459 1 1 1 -0.0116463 -0.0116463 -0.0116463 
+noeMatrix (normalized to diagonal) -0.000209409 -0.015096 -0.0284459 1 1 1 -0.0116463 -0.0116463 -0.0116463 
+noeMatrix (normalized to diagonal) -0.000209409 -0.015096 -0.0284459 1 1 1 -0.0116463 -0.0116463 -0.0116463 
+noeMatrix (normalized to diagonal) -0.000109633 4.57608e-05 -0.0333709 -0.0113692 -0.0113692 -0.0113692 1 1 1 
+noeMatrix (normalized to diagonal) -0.000109633 4.57608e-05 -0.0333709 -0.0113692 -0.0113692 -0.0113692 1 1 1 
+noeMatrix (normalized to diagonal) -0.000109633 4.57608e-05 -0.0333709 -0.0113692 -0.0113692 -0.0113692 1 1 1 
+NOE diagonal(12) 0.859894
+NOE diagonal(13) 0.740645
+NOE diagonal(14) 0.732173
+NOE diagonal(15) 0.834605
+NOE diagonal(16) 0.834605
+NOE diagonal(17) 0.834605
+NOE diagonal(18) 0.854942
+NOE diagonal(19) 0.854942
+NOE diagonal(20) 0.854942
+Test OK Value calculated : -0.0360377 is indeed ~=  -0.0360376
+Test OK Value calculated : -0.0390121 is indeed ~=  -0.0390121
+Test OK Value calculated : -0.0419094 is indeed ~=  -0.0419094
+Test OK Value calculated : -0.0285302 is indeed ~=  -0.0285301
+Test OK Value calculated : -0.00972003 is indeed ~=  -0.00972002
+Test OK Value calculated : -0.000174774 is indeed ~=  -0.000174781
+Test OK Value calculated : -0.0125992 is indeed ~=  -0.0125992
+Test OK Value calculated : -0.0237411 is indeed ~=  -0.023741
+Test OK Value calculated : -9.37296e-05 is indeed ~=  -9.37296e-05
+Test OK Value calculated : 3.91228e-05 is indeed ~=  3.91228e-05
+Test OK Value calculated : -0.0285302 is indeed ~=  -0.0285301
+===================================================================
+===================================================================
+===================================================================
+Start example number: 1002===================================================================
+nb      : 21
+tau      : 80 ps
+Larmor   : 400 MHz
+rhoStar  : 0.1 s-1
+tMix     : 0.5 s
+cutoff   : 10 A
+Calculate: NOE 
+JValSigma HH: 3.33186e-10
+JValRho HH  : 7.23861e-10
+JValSigma HC: 3.73189e-10
+JValRho HC  : 7.69033e-10
+JValSigma HN: 3.88565e-10
+JValRho HN  : 7.80986e-10
+JValSigma HF: 3.36584e-10
+JValRho HF  : 7.28272e-10
+JValSigma CH: 3.73189e-10
+JValRho CH  : 7.6032e-10
+rho + rhoStar atom:12(Z=1): 0.127963 + 0.1 = 0.227963 (gamma:267.522)
+rho + rhoStar atom:14(Z=1): 0.287138 + 0.1 = 0.387138 (gamma:267.522)
+rho + rhoStar atom:15(Z=1): 0.117783 + 0.1 = 0.217783 (gamma:267.522)
+rho + rhoStar atom:18(Z=1): 0.121216 + 0.1 = 0.221216 (gamma:267.522)
+Distance matrix 
+0 6 True   =  0   1.41546   2.46192   2.84218   2.45732   1.41558   2.74095   4.073   4.56996   1.53374   2.51986   2.65611   3.43481   2.17688   2.11123   2.79641   2.77025   3.47915   3.07864   3.55592   2.8843  
+1 6 True   =  1.41546   0   1.41836   2.44377   2.80505   2.41714   1.74958   2.75706   4.06301   2.65501   3.59169   3.22042   3.89422   3.41488   3.37946   3.50004   3.97347   4.54778   3.31279   4.28702   3.18539  
+2 6 True   =  2.46192   1.41836   0   1.40269   2.41704   2.78672   2.72594   1.74504   2.75778   3.92659   4.75553   4.62287   3.40881   3.87695   4.50626   4.62248   4.90977   5.78412   4.71705   5.67894   4.49529  
+3 6 True   =  2.84218   2.44377   1.40269   0   1.39048   2.41125   4.02692   2.71794   1.72935   4.36706   5.06764   5.39136   2.15766   3.38439   4.71845   5.08895   4.9188   6.12917   5.65591   6.358   5.33924  
+4 6 True   =  2.45732   2.80505   2.41704   1.39048   0   1.39249   4.53521   4.01421   2.66722   3.79697   4.37703   5.08149   1.0894   2.13264   3.92467   4.62963   4.01278   5.39205   5.52417   5.90144   5.17286  
+5 6 True   =  1.41558   2.41714   2.78672   2.41125   1.39249   0   4.02619   4.53145   3.97546   2.47994   3.10509   3.86625   2.14895   1.0907   2.56746   3.54174   2.82346   4.06872   4.4057   4.59631   4.09354  
+6 9 True   =  2.74095   1.74958   2.72594   4.02692   4.53521   4.02619   0   3.16259   5.46947   3.26294   4.25866   2.95588   5.62316   4.90677   4.08307   4.01978   4.9849   4.97018   2.7013   4.01624   2.671  
+7 9 True   =  4.073   2.75706   1.74504   2.71794   4.01421   4.53145   3.16259   0   3.19376   5.41188   6.23579   5.79019   4.87559   5.62137   6.07521   5.92374   6.5046   7.22773   5.67734   6.88376   5.5181  
+8 9 True   =  4.56996   4.06301   2.75778   1.72935   2.66722   3.97546   5.46947   3.19376   0   6.09011   6.72057   7.10768   2.79529   4.79895   6.38795   6.68893   6.46466   7.79365   7.34017   8.08154   6.99648  
+9 6 True   =  1.53374   2.65501   3.92659   4.36706   3.79697   2.47994   3.26294   5.41188   6.09011   0   1.53643   1.53018   4.62753   2.63416   1.1006   2.18629   2.19073   2.18126   2.19117   2.16599   2.18644  
+10 6 True   =  2.51986   3.59169   4.75553   5.06764   4.37703   3.10509   4.25866   6.23579   6.72057   1.53643   0   2.49701   5.0648   2.99857   2.13631   1.09503   1.09557   1.09558   2.70979   2.76845   3.46801  
+11 6 True   =  2.65611   3.22042   4.62287   5.39136   5.08149   3.86625   2.95588   5.79019   7.10768   1.53018   2.49701   0   5.99693   4.11743   2.08871   2.8519   3.45775   2.65715   1.09492   1.09654   1.09396  
+12 1 True   =  3.43481   3.89422   3.40881   2.15766   1.0894   2.14895   5.62316   4.87559   2.79529   4.62753   5.0648   5.99693   0   2.43803   4.59207   5.39061   4.503   6.02956   6.49878   6.73189   6.11578  
+13 1 True   =  2.17688   3.41488   3.87695   3.38439   2.13264   1.0907   4.90677   5.62137   4.79895   2.63416   2.99857   4.11743   2.43803   0   2.3714   3.6783   2.45304   3.79886   4.78041   4.62   4.46327  
+14 1 True   =  2.11123   3.37946   4.50626   4.71845   3.92467   2.56746   4.08307   6.07521   6.38795   1.1006   2.13631   2.08871   4.59207   2.3714   0   3.06307   2.46194   2.49863   3.02546   2.3416   2.50017  
+15 1 True   =  2.79641   3.50004   4.62248   5.08895   4.62963   3.54174   4.01978   5.92374   6.68893   2.18629   1.09503   2.8519   5.39061   3.6783   3.06307   0   1.7692   1.77475   2.63499   3.28777   3.82715  
+16 1 True   =  2.77025   3.97347   4.90977   4.9188   4.01278   2.82346   4.9849   6.5046   6.46466   2.19073   1.09557   3.45775   4.503   2.45304   2.46194   1.7692   0   1.76175   3.77236   3.70642   4.33106  
+17 1 True   =  3.47915   4.54778   5.78412   6.12917   5.39205   4.06872   4.97018   7.22773   7.79365   2.18126   1.09558   2.65715   6.02956   3.79886   2.49863   1.77475   1.76175   0   2.87694   2.48043   3.70387  
+18 1 True   =  3.07864   3.31279   4.71705   5.65591   5.52417   4.4057   2.7013   5.67734   7.34017   2.19117   2.70979   1.09492   6.49878   4.78041   3.02546   2.63499   3.77236   2.87694   0   1.74907   1.78888  
+19 1 True   =  3.55592   4.28702   5.67894   6.358   5.90144   4.59631   4.01624   6.88376   8.08154   2.16599   2.76845   1.09654   6.73189   4.62   2.3416   3.28777   3.70642   2.48043   1.74907   0   1.76253  
+20 1 True   =  2.8843   3.18539   4.49529   5.33924   5.17286   4.09354   2.671   5.5181   6.99648   2.18644   3.46801   1.09396   6.11578   4.46327   2.50017   3.82715   4.33106   3.70387   1.78888   1.76253   0  
+0 6 Pseudo =  0  (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)  Not identical
+1 6 Pseudo = (0)  0  (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)  Not identical
+2 6 Pseudo = (0) (0)  0  (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)  Not identical
+3 6 Pseudo = (0) (0) (0)  0  (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)  Not identical
+4 6 Pseudo = (0) (0) (0) (0)  0  (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)  Not identical
+5 6 Pseudo = (0) (0) (0) (0) (0)  0  (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)  Not identical
+6 9 Pseudo = (0) (0) (0) (0) (0) (0)  0  (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)  Not identical
+7 9 Pseudo = (0) (0) (0) (0) (0) (0) (0)  0  (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)  Not identical
+8 9 Pseudo = (0) (0) (0) (0) (0) (0) (0) (0)  0  (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)  Not identical
+9 6 Pseudo = (0) (0) (0) (0) (0) (0) (0) (0) (0)  0  (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)  Not identical
+10 6 Pseudo = (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)  0  (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)  Not identical
+11 6 Pseudo = (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)  0  (0) (0) (0) (0) (0) (0) (0) (0) (0)  Not identical
+12 1 Pseudo = (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)  0  (0) (2.65348) (4.11986) (4.11986) (4.11986) (5.55754) (5.55754) (5.55754)  Not identical
+13 1 Pseudo = (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)  0  (2.65348) (4.11986) (4.11986) (4.11986) (5.55754) (5.55754) (5.55754)  Not identical
+14 1 Pseudo = (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (2.65348) (2.65348)  0  (2.83681) (2.83681) (2.83681) (2.77711) (2.77711) (2.77711)  Not identical
+15 1 Pseudo = (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (4.06311) (4.06311) (2.83681) (1.28646) (1.28646) (1.28646) (3.34381) (3.34381) (3.34381)  Not identical
+16 1 Pseudo = (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (4.06311) (4.06311) (2.83681) (1.28646) (1.28646) (1.28646) (3.34381) (3.34381) (3.34381)  Not identical
+17 1 Pseudo = (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (4.06311) (4.06311) (2.83681) (1.28646) (1.28646) (1.28646) (3.34381) (3.34381) (3.34381)  Not identical
+18 1 Pseudo = (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (5.23591) (5.23591) (2.77711) (3.3471) (3.3471) (3.3471) (1.28496) (1.28496) (1.28496)  Not identical
+19 1 Pseudo = (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (5.23591) (5.23591) (2.77711) (3.3471) (3.3471) (3.3471) (1.28496) (1.28496) (1.28496)  Not identical
+20 1 Pseudo = (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (5.23591) (5.23591) (2.77711) (3.3471) (3.3471) (3.3471) (1.28496) (1.28496) (1.28496)  Not identical
+Number of iter for diagonalization : 26
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0.679907 0 0.267062 0.202284 0 0 -0.652293 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 -0.356778 0 0.922709 -0.141019 0 0 -0.0378384 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0.0891706 0 0.186088 0.873897 0 0 0.44014 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0.634417 0 0.206539 -0.418925 0 0 0.615921 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+Before scaling according to gamma 
+noeMatrix (NOT normalized ) 0.892597 0.892597 -0.0233034 -0.00167079 -0.00167079 -0.00167079 -0.00016124 -0.00016124 -0.00016124 
+noeMatrix (NOT normalized ) 0.892597 0.892597 -0.0233034 -0.00167079 -0.00167079 -0.00167079 -0.00016124 -0.00016124 -0.00016124 
+noeMatrix (NOT normalized ) -0.0233034 -0.0233034 0.824647 -0.0155757 -0.0155757 -0.0155757 -0.0177191 -0.0177191 -0.0177191 
+noeMatrix (NOT normalized ) -0.00167079 -0.00167079 -0.0155757 0.896994 0.896994 0.896994 -0.00591993 -0.00591993 -0.00591993 
+noeMatrix (NOT normalized ) -0.00167079 -0.00167079 -0.0155757 0.896994 0.896994 0.896994 -0.00591993 -0.00591993 -0.00591993 
+noeMatrix (NOT normalized ) -0.00167079 -0.00167079 -0.0155757 0.896994 0.896994 0.896994 -0.00591993 -0.00591993 -0.00591993 
+noeMatrix (NOT normalized ) -0.00016124 -0.00016124 -0.0177191 -0.00591993 -0.00591993 -0.00591993 0.895496 0.895496 0.895496 
+noeMatrix (NOT normalized ) -0.00016124 -0.00016124 -0.0177191 -0.00591993 -0.00591993 -0.00591993 0.895496 0.895496 0.895496 
+noeMatrix (NOT normalized ) -0.00016124 -0.00016124 -0.0177191 -0.00591993 -0.00591993 -0.00591993 0.895496 0.895496 0.895496 
+After scaling according to value(i,j) *= Gi*Gj/(GH*GH) 
+noeMatrix (NOT normalized ) 0.892597 0.892597 -0.0233034 -0.00167079 -0.00167079 -0.00167079 -0.00016124 -0.00016124 -0.00016124 
+noeMatrix (NOT normalized ) 0.892597 0.892597 -0.0233034 -0.00167079 -0.00167079 -0.00167079 -0.00016124 -0.00016124 -0.00016124 
+noeMatrix (NOT normalized ) -0.0233034 -0.0233034 0.824647 -0.0155757 -0.0155757 -0.0155757 -0.0177191 -0.0177191 -0.0177191 
+noeMatrix (NOT normalized ) -0.00167079 -0.00167079 -0.0155757 0.896994 0.896994 0.896994 -0.00591993 -0.00591993 -0.00591993 
+noeMatrix (NOT normalized ) -0.00167079 -0.00167079 -0.0155757 0.896994 0.896994 0.896994 -0.00591993 -0.00591993 -0.00591993 
+noeMatrix (NOT normalized ) -0.00167079 -0.00167079 -0.0155757 0.896994 0.896994 0.896994 -0.00591993 -0.00591993 -0.00591993 
+noeMatrix (NOT normalized ) -0.00016124 -0.00016124 -0.0177191 -0.00591993 -0.00591993 -0.00591993 0.895496 0.895496 0.895496 
+noeMatrix (NOT normalized ) -0.00016124 -0.00016124 -0.0177191 -0.00591993 -0.00591993 -0.00591993 0.895496 0.895496 0.895496 
+noeMatrix (NOT normalized ) -0.00016124 -0.00016124 -0.0177191 -0.00591993 -0.00591993 -0.00591993 0.895496 0.895496 0.895496 
+noeMatrix (normalized to diagonal) 1 1 -0.0261074 -0.00187183 -0.00187183 -0.00187183 -0.000180641 -0.000180641 -0.000180641 
+noeMatrix (normalized to diagonal) 1 1 -0.0261074 -0.00187183 -0.00187183 -0.00187183 -0.000180641 -0.000180641 -0.000180641 
+noeMatrix (normalized to diagonal) -0.0282586 -0.0282586 1 -0.0188877 -0.0188877 -0.0188877 -0.0214868 -0.0214868 -0.0214868 
+noeMatrix (normalized to diagonal) -0.00186265 -0.00186265 -0.0173643 1 1 1 -0.00659974 -0.00659974 -0.00659974 
+noeMatrix (normalized to diagonal) -0.00186265 -0.00186265 -0.0173643 1 1 1 -0.00659974 -0.00659974 -0.00659974 
+noeMatrix (normalized to diagonal) -0.00186265 -0.00186265 -0.0173643 1 1 1 -0.00659974 -0.00659974 -0.00659974 
+noeMatrix (normalized to diagonal) -0.000180056 -0.000180056 -0.0197869 -0.00661078 -0.00661078 -0.00661078 1 1 1 
+noeMatrix (normalized to diagonal) -0.000180056 -0.000180056 -0.0197869 -0.00661078 -0.00661078 -0.00661078 1 1 1 
+noeMatrix (normalized to diagonal) -0.000180056 -0.000180056 -0.0197869 -0.00661078 -0.00661078 -0.00661078 1 1 1 
+NOE diagonal(12) 0.892597
+NOE diagonal(13) 0.892597
+NOE diagonal(14) 0.824647
+NOE diagonal(15) 0.896994
+NOE diagonal(16) 0.896994
+NOE diagonal(17) 0.896994
+NOE diagonal(18) 0.895496
+NOE diagonal(19) 0.895496
+NOE diagonal(20) 0.895496
+Test OK Value calculated : 0.892597 is indeed ~=  0.892597
+Test OK Value calculated : -0.0233034 is indeed ~=  -0.0233034
+Test OK Value calculated : -0.0233034 is indeed ~=  -0.0233034
+Test OK Value calculated : 1 is indeed ~=  1
+Test OK Value calculated : -0.0177191 is indeed ~=  -0.0177191
+Test OK Value calculated : -0.00591993 is indeed ~=  -0.00591994
+Test OK Value calculated : -0.00167079 is indeed ~=  -0.00167081
+Test OK Value calculated : -0.00167079 is indeed ~=  -0.00167081
+Test OK Value calculated : -0.0155757 is indeed ~=  -0.0155756
+Test OK Value calculated : -0.00016124 is indeed ~=  -0.000161246
+Test OK Value calculated : -0.00016124 is indeed ~=  -0.000161246
+Test OK Value calculated : -0.0177191 is indeed ~=  -0.0177191
+===================================================================
+===================================================================
+===================================================================
+Start example number: 1003===================================================================
+nb      : 21
+tau      : 80 ps
+Larmor   : 400 MHz
+rhoStar  : 0.1 s-1
+tMix     : 0.5 s
+cutoff   : 10 A
+Calculate: ROE 
+JValSigma HH: 3.90675e-10
+JValRho HH  : 7.52605e-10
+JValSigma HC: 3.95844e-10
+JValRho HC  : 7.80361e-10
+JValSigma HN: 3.92421e-10
+JValRho HN  : 7.82914e-10
+JValSigma HF: 3.91688e-10
+JValRho HF  : 7.55824e-10
+JValSigma CH: 3.87131e-10
+JValRho CH  : 7.67291e-10
+rho + rhoStar atom:12(Z=1): 0.211419 + 0.1 = 0.311419 (gamma:267.522)
+rho + rhoStar atom:13(Z=1): 0.495823 + 0.1 = 0.595823 (gamma:267.522)
+rho + rhoStar atom:14(Z=1): 0.421362 + 0.1 = 0.521362 (gamma:267.522)
+rho + rhoStar atom:15(Z=1): 0.161845 + 0.1 = 0.261845 (gamma:267.522)
+rho + rhoStar atom:18(Z=1): 0.128341 + 0.1 = 0.228341 (gamma:267.522)
+Distance matrix 
+0 6 True   =  0   1.41546   2.46192   2.84218   2.45732   1.41558   2.74095   4.073   4.56996   1.53374   2.51986   2.65611   3.43481   2.17688   2.11123   2.79641   2.77025   3.47915   3.07864   3.55592   2.8843  
+1 6 True   =  1.41546   0   1.41836   2.44377   2.80505   2.41714   1.74958   2.75706   4.06301   2.65501   3.59169   3.22042   3.89422   3.41488   3.37946   3.50004   3.97347   4.54778   3.31279   4.28702   3.18539  
+2 6 True   =  2.46192   1.41836   0   1.40269   2.41704   2.78672   2.72594   1.74504   2.75778   3.92659   4.75553   4.62287   3.40881   3.87695   4.50626   4.62248   4.90977   5.78412   4.71705   5.67894   4.49529  
+3 6 True   =  2.84218   2.44377   1.40269   0   1.39048   2.41125   4.02692   2.71794   1.72935   4.36706   5.06764   5.39136   2.15766   3.38439   4.71845   5.08895   4.9188   6.12917   5.65591   6.358   5.33924  
+4 6 True   =  2.45732   2.80505   2.41704   1.39048   0   1.39249   4.53521   4.01421   2.66722   3.79697   4.37703   5.08149   1.0894   2.13264   3.92467   4.62963   4.01278   5.39205   5.52417   5.90144   5.17286  
+5 6 True   =  1.41558   2.41714   2.78672   2.41125   1.39249   0   4.02619   4.53145   3.97546   2.47994   3.10509   3.86625   2.14895   1.0907   2.56746   3.54174   2.82346   4.06872   4.4057   4.59631   4.09354  
+6 9 True   =  2.74095   1.74958   2.72594   4.02692   4.53521   4.02619   0   3.16259   5.46947   3.26294   4.25866   2.95588   5.62316   4.90677   4.08307   4.01978   4.9849   4.97018   2.7013   4.01624   2.671  
+7 9 True   =  4.073   2.75706   1.74504   2.71794   4.01421   4.53145   3.16259   0   3.19376   5.41188   6.23579   5.79019   4.87559   5.62137   6.07521   5.92374   6.5046   7.22773   5.67734   6.88376   5.5181  
+8 9 True   =  4.56996   4.06301   2.75778   1.72935   2.66722   3.97546   5.46947   3.19376   0   6.09011   6.72057   7.10768   2.79529   4.79895   6.38795   6.68893   6.46466   7.79365   7.34017   8.08154   6.99648  
+9 6 True   =  1.53374   2.65501   3.92659   4.36706   3.79697   2.47994   3.26294   5.41188   6.09011   0   1.53643   1.53018   4.62753   2.63416   1.1006   2.18629   2.19073   2.18126   2.19117   2.16599   2.18644  
+10 6 True   =  2.51986   3.59169   4.75553   5.06764   4.37703   3.10509   4.25866   6.23579   6.72057   1.53643   0   2.49701   5.0648   2.99857   2.13631   1.09503   1.09557   1.09558   2.70979   2.76845   3.46801  
+11 6 True   =  2.65611   3.22042   4.62287   5.39136   5.08149   3.86625   2.95588   5.79019   7.10768   1.53018   2.49701   0   5.99693   4.11743   2.08871   2.8519   3.45775   2.65715   1.09492   1.09654   1.09396  
+12 1 True   =  3.43481   3.89422   3.40881   2.15766   1.0894   2.14895   5.62316   4.87559   2.79529   4.62753   5.0648   5.99693   0   2.43803   4.59207   5.39061   4.503   6.02956   6.49878   6.73189   6.11578  
+13 1 True   =  2.17688   3.41488   3.87695   3.38439   2.13264   1.0907   4.90677   5.62137   4.79895   2.63416   2.99857   4.11743   2.43803   0   2.3714   3.6783   2.45304   3.79886   4.78041   4.62   4.46327  
+14 1 True   =  2.11123   3.37946   4.50626   4.71845   3.92467   2.56746   4.08307   6.07521   6.38795   1.1006   2.13631   2.08871   4.59207   2.3714   0   3.06307   2.46194   2.49863   3.02546   2.3416   2.50017  
+15 1 True   =  2.79641   3.50004   4.62248   5.08895   4.62963   3.54174   4.01978   5.92374   6.68893   2.18629   1.09503   2.8519   5.39061   3.6783   3.06307   0   1.7692   1.77475   2.63499   3.28777   3.82715  
+16 1 True   =  2.77025   3.97347   4.90977   4.9188   4.01278   2.82346   4.9849   6.5046   6.46466   2.19073   1.09557   3.45775   4.503   2.45304   2.46194   1.7692   0   1.76175   3.77236   3.70642   4.33106  
+17 1 True   =  3.47915   4.54778   5.78412   6.12917   5.39205   4.06872   4.97018   7.22773   7.79365   2.18126   1.09558   2.65715   6.02956   3.79886   2.49863   1.77475   1.76175   0   2.87694   2.48043   3.70387  
+18 1 True   =  3.07864   3.31279   4.71705   5.65591   5.52417   4.4057   2.7013   5.67734   7.34017   2.19117   2.70979   1.09492   6.49878   4.78041   3.02546   2.63499   3.77236   2.87694   0   1.74907   1.78888  
+19 1 True   =  3.55592   4.28702   5.67894   6.358   5.90144   4.59631   4.01624   6.88376   8.08154   2.16599   2.76845   1.09654   6.73189   4.62   2.3416   3.28777   3.70642   2.48043   1.74907   0   1.76253  
+20 1 True   =  2.8843   3.18539   4.49529   5.33924   5.17286   4.09354   2.671   5.5181   6.99648   2.18644   3.46801   1.09396   6.11578   4.46327   2.50017   3.82715   4.33106   3.70387   1.78888   1.76253   0  
+0 6 Pseudo =  0  (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)  Not identical
+1 6 Pseudo = (0)  0  (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)  Not identical
+2 6 Pseudo = (0) (0)  0  (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)  Not identical
+3 6 Pseudo = (0) (0) (0)  0  (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)  Not identical
+4 6 Pseudo = (0) (0) (0) (0)  0  (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)  Not identical
+5 6 Pseudo = (0) (0) (0) (0) (0)  0  (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)  Not identical
+6 9 Pseudo = (0) (0) (0) (0) (0) (0)  0  (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)  Not identical
+7 9 Pseudo = (0) (0) (0) (0) (0) (0) (0)  0  (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)  Not identical
+8 9 Pseudo = (0) (0) (0) (0) (0) (0) (0) (0)  0  (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)  Not identical
+9 6 Pseudo = (0) (0) (0) (0) (0) (0) (0) (0) (0)  0  (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)  Not identical
+10 6 Pseudo = (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)  0  (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)  Not identical
+11 6 Pseudo = (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)  0  (0) (0) (0) (0) (0) (0) (0) (0) (0)  Not identical
+12 1 Pseudo = (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)  0   2.43803   4.59207  (5.21328) (5.21328) (5.21328)  6.50568  (6.50568) (6.50568)  Not identical
+13 1 Pseudo = (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)  2.43803   0   2.3714  (3.11666) (3.11666) (3.11666) (4.73026) (4.73026) (4.73026)  Not identical
+14 1 Pseudo = (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)  4.59207   2.3714   0  (2.83681) (2.83681) (2.83681) (2.77711) (2.77711) (2.77711)  Not identical
+15 1 Pseudo = (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (5.21328) (3.11666) (2.83681) (1.28646) (1.28646) (1.28646) (3.34381) (3.34381) (3.34381)  Not identical
+16 1 Pseudo = (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (5.21328) (3.11666) (2.83681) (1.28646) (1.28646) (1.28646) (3.34381) (3.34381) (3.34381)  Not identical
+17 1 Pseudo = (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (5.21328) (3.11666) (2.83681) (1.28646) (1.28646) (1.28646) (3.34381) (3.34381) (3.34381)  Not identical
+18 1 Pseudo = (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)  6.50568  (4.73026) (2.77711) (3.3471) (3.3471) (3.3471) (1.28496) (1.28496) (1.28496)  Not identical
+19 1 Pseudo = (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (6.50568) (4.73026) (2.77711) (3.3471) (3.3471) (3.3471) (1.28496) (1.28496) (1.28496)  Not identical
+20 1 Pseudo = (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (6.50568) (4.73026) (2.77711) (3.3471) (3.3471) (3.3471) (1.28496) (1.28496) (1.28496)  Not identical
+Number of iter for diagonalization : 50
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0.912804 0.21274 -0.332409 -0.0474457 0 0 -0.093718 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 -0.352082 0.795743 -0.484697 0.018408 0 0 0.0869495 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0.129341 0.55511 0.782225 -0.198886 0 0 -0.153922 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0.0471474 0.0977209 0.120817 0.958844 0 0 -0.232914 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0.154514 0.0619445 0.167631 0.196143 0 0 0.951691 0 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+Eigen Vectors 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+Before scaling according to gamma 
+roeMatrix (NOT normalized) 0.856954 -0.0422847 0.000346891 -0.000214189 -0.000214189 -0.000214189 -0.00010419 -0.00010419 -0.00010419 
+roeMatrix (NOT normalized) -0.0422847 0.744986 -0.0472515 -0.00927633 -0.00927633 -0.00927633 -0.000162344 -0.000162344 -0.000162344 
+roeMatrix (NOT normalized) 0.000346891 -0.0472515 0.772433 -0.0171976 -0.0171976 -0.0171976 -0.0200499 -0.0200499 -0.0200499 
+roeMatrix (NOT normalized) -0.000214189 -0.00927633 -0.0171976 0.877561 0.877561 0.877561 -0.00678115 -0.00678115 -0.00678115 
+roeMatrix (NOT normalized) -0.000214189 -0.00927633 -0.0171976 0.877561 0.877561 0.877561 -0.00678115 -0.00678115 -0.00678115 
+roeMatrix (NOT normalized) -0.000214189 -0.00927633 -0.0171976 0.877561 0.877561 0.877561 -0.00678115 -0.00678115 -0.00678115 
+roeMatrix (NOT normalized) -0.00010419 -0.000162344 -0.0200499 -0.00678115 -0.00678115 -0.00678115 0.892383 0.892383 0.892383 
+roeMatrix (NOT normalized) -0.00010419 -0.000162344 -0.0200499 -0.00678115 -0.00678115 -0.00678115 0.892383 0.892383 0.892383 
+roeMatrix (NOT normalized) -0.00010419 -0.000162344 -0.0200499 -0.00678115 -0.00678115 -0.00678115 0.892383 0.892383 0.892383 
+After scaling according to value(i,j) *= Gi*Gj/(GH*GH) 
+roeMatrix (NOT normalized) 0.856954 -0.0422847 0.000346891 -0.000214189 -0.000214189 -0.000214189 -0.00010419 -0.00010419 -0.00010419 
+roeMatrix (NOT normalized) -0.0422847 0.744986 -0.0472515 -0.00927633 -0.00927633 -0.00927633 -0.000162344 -0.000162344 -0.000162344 
+roeMatrix (NOT normalized) 0.000346891 -0.0472515 0.772433 -0.0171976 -0.0171976 -0.0171976 -0.0200499 -0.0200499 -0.0200499 
+roeMatrix (NOT normalized) -0.000214189 -0.00927633 -0.0171976 0.877561 0.877561 0.877561 -0.00678115 -0.00678115 -0.00678115 
+roeMatrix (NOT normalized) -0.000214189 -0.00927633 -0.0171976 0.877561 0.877561 0.877561 -0.00678115 -0.00678115 -0.00678115 
+roeMatrix (NOT normalized) -0.000214189 -0.00927633 -0.0171976 0.877561 0.877561 0.877561 -0.00678115 -0.00678115 -0.00678115 
+roeMatrix (NOT normalized) -0.00010419 -0.000162344 -0.0200499 -0.00678115 -0.00678115 -0.00678115 0.892383 0.892383 0.892383 
+roeMatrix (NOT normalized) -0.00010419 -0.000162344 -0.0200499 -0.00678115 -0.00678115 -0.00678115 0.892383 0.892383 0.892383 
+roeMatrix (NOT normalized) -0.00010419 -0.000162344 -0.0200499 -0.00678115 -0.00678115 -0.00678115 0.892383 0.892383 0.892383 
+roeMatrix (normalized to diagonal) 1 -0.049343 0.000404795 -0.000249943 -0.000249943 -0.000249943 -0.000121582 -0.000121582 -0.000121582 
+roeMatrix (normalized to diagonal) -0.0567591 1 -0.0634261 -0.0124517 -0.0124517 -0.0124517 -0.000217916 -0.000217916 -0.000217916 
+roeMatrix (normalized to diagonal) 0.000449089 -0.0611723 1 -0.0222642 -0.0222642 -0.0222642 -0.0259568 -0.0259568 -0.0259568 
+roeMatrix (normalized to diagonal) -0.000244074 -0.0105706 -0.019597 1 1 1 -0.00772728 -0.00772728 -0.00772728 
+roeMatrix (normalized to diagonal) -0.000244074 -0.0105706 -0.019597 1 1 1 -0.00772728 -0.00772728 -0.00772728 
+roeMatrix (normalized to diagonal) -0.000244074 -0.0105706 -0.019597 1 1 1 -0.00772728 -0.00772728 -0.00772728 
+roeMatrix (normalized to diagonal) -0.000116755 -0.000181922 -0.0224678 -0.00759893 -0.00759893 -0.00759893 1 1 1 
+roeMatrix (normalized to diagonal) -0.000116755 -0.000181922 -0.0224678 -0.00759893 -0.00759893 -0.00759893 1 1 1 
+roeMatrix (normalized to diagonal) -0.000116755 -0.000181922 -0.0224678 -0.00759893 -0.00759893 -0.00759893 1 1 1 
+ROE diagonal(12) 0.856954
+ROE diagonal(13) 0.744986
+ROE diagonal(14) 0.772433
+ROE diagonal(15) 0.877561
+ROE diagonal(16) 0.877561
+ROE diagonal(17) 0.877561
+ROE diagonal(18) 0.892383
+ROE diagonal(19) 0.892383
+ROE diagonal(20) 0.892383
+Test OK Value calculated : -0.0422847 is indeed ~=  -0.0422847
+Test OK Value calculated : -0.049343 is indeed ~=  -0.049343
+All tests passed! 

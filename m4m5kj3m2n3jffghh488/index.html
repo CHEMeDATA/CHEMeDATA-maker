@@ -1,0 +1,164 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <script language="javascript" src="./jsgraph.min.js" ;
+    ></script>
+  </head>
+
+  <body>
+    Click a button to show results. Click a second for comparison next to the first (buggish-but useful).
+    <p></p>
+Last called   <p id="fileNumber" name="fileNumber"></p>
+<p></p>
+<button onclick="createGraph(14)">14 H-1-H no other relax</button>
+    <button onclick="createGraph(16)">16 H-1-C no other relax</button>
+    <p></p>
+    <button onclick="createGraph(2)">2 H-1-H-1-H</button>
+    <button onclick="createGraph(3)">3 H-2-H-1-H</button>
+    <p></p>
+
+    <button onclick="createGraph(4)">4 H-1-H</button>
+    <button onclick="createGraph(5)">5 H-1-F</button>
+    <button onclick="createGraph(6)">6 H-1-13C</button>
+    <button onclick="createGraph(7)">7 H-1-15N</button>
+    <p></p>
+
+    <button onclick="createGraph(8)">8 H-1.1-H</button>
+    <button onclick="createGraph(21)">21 H-3.0-H</button>
+    <button onclick="createGraph(22)">22 H-3.1-H</button>
+    <button onclick="createGraph(100)">100 H-1.5-H-3-H</button>
+    <p></p>
+    <button onclick="createGraph(1000)">1000</button>
+    <button onclick="createGraph(1001)">1001 methyl H made equivalent </button>
+    <button onclick="createGraph(1002)">1002 non-equ methyl H</button>
+    <button onclick="createGraph(1003)">1003 ROESY</button>
+
+    <input type="text" id="fileNumber" name="fileNumber" value="1000" class="input"/>
+    
+    <table id="target" border="1" style="border-collapse: collapse;">
+      <tr>
+        <th></th>
+        <th>Signal intensity</th>
+      </tr>
+    </table>
+
+    <script>
+      let  ExampleNumber =  0;;
+      document.getElementById('fileNumber').innerHTML = ExampleNumber;
+
+      const  options = {
+          width: 400,
+          height: 150,
+          plugins: {
+          zoom: {
+            zoomMode: 'xy',
+          },
+        },
+        mouseActions: [
+          {
+            plugin: 'zoom',
+            shift: false,
+            ctrl: false,
+          },
+          {
+            plugin: 'zoom',
+            type: 'mousewheel',
+            options: {
+              direction: 'y',
+            },
+          },
+          {
+            plugin: 'zoom',
+            type: 'dblclick',
+            options: {
+              mode: 'total',
+            },
+          },
+        ],
+        };
+
+      async function createGraph(ExampleNumber) {
+        document.getElementById('fileNumber').innerHTML = ExampleNumber;
+
+        let response = await fetch('./result' + ExampleNumber + '.json');
+        let result = await response.json();
+
+        let steps = result.steps;
+        let id = 0;
+
+        for (let step of steps) {
+          console.log(step);
+          id++;
+          let tr = document.createElement('TR');
+
+
+          let tdLabel = document.createElement('TD');
+          tdLabel.setAttribute('id', 'text' + id);
+          tr.appendChild(tdLabel);
+          tdLabel.innerHTML = (id);
+
+
+
+          let tdMultiplet = document.createElement('TD');
+          tdMultiplet.setAttribute('id', 'noe' + id);
+          tr.appendChild(tdMultiplet);
+
+          //Here set text...
+
+          document.getElementById('target').appendChild(tr);
+
+          addMultiplet('noe' + id, step.noe, options, id);
+
+          continue;
+        }
+      }
+
+      function addMultiplet(id, data, options = {},id2) {
+        const { width = 400, height = 250 } = options;
+        let graph = new Graph(id, options);
+        graph.resize(width, height); // Resizes the container
+        
+        let name;
+        let waveForml = [];    
+        let ser = [];    
+        let idc = 0;
+
+        for (let lo = 0; lo < 50; lo++) {
+          name = "y" + lo;
+          if (data.hasOwnProperty(name)) {
+            idc ++;
+
+            y = data[name];
+            waveForml[lo] = Graph.newWaveform();
+            waveForml[lo].setData( y , data.x);
+            if ( idc == id2 ){
+              ser[lo] = graph
+              .newSerie(name, {}, 'line') // Creates a new serie
+              .autoAxis() // Assigns axes
+              .setWaveform(waveForml[lo])
+              .setLineColor('blue')
+              .getYAxis().setScientific(true);
+            }
+            else
+            {
+              ser[lo] = graph
+              .newSerie(name, {}, 'line') // Creates a new serie
+              .autoAxis() // Assigns axes
+              .setWaveform(waveForml[lo])
+              .setLineColor('rgba(255,0,0,1)')
+              .getYAxis().setScientific(true);
+            }
+            graph.getLeftAxis()
+                .setCurrentMin(-1)
+                .setCurrentMax(1);//forceMax
+            graph.getBottomAxis()
+                .setCurrentMin(0)
+                .setCurrentMax(1000);
+                graph.makeLegend()
+            graph.draw(); // Draw
+          }
+        }
+      }
+    </script>
+  </body>
+</html>
