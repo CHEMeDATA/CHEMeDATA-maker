@@ -20,11 +20,13 @@ This could be save as NMReDATA, *i.e.* a format associating the structure with N
 
 Optionally, the user should be able to drop NMR, IR, etc. spectra... or Mnova (or other) files to add spectra and assignement.
 
-Optionally, the user could assign the molecules, it was not done already in the previous step.
+Optionally, the user could assign the molecules, if it was not done already in the previous step.
 
 Finally the data could be (automatically) saved on (say) Zenodo after the user was identified with his ORCID ID to automatise author/institution filling.
 
 ## Installation
+
+**NOTHING TO INSTALL YET - THIS IS UNDER DEVELOPMENT**
 
 `$ npm i CHEMeDATA-maker`
 
