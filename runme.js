@@ -89,6 +89,36 @@ let server = http.createServer(function (request, response) {
         }
       });
       break;
+    case '/banner/index.html':
+      fs.readFile(path2, function (error, data) {
+        if (error) {
+          response.writeHead(404);
+          response.write(error);
+          response.end();
+        } else {
+          response.writeHead(200, {
+            'Content-Type': 'text/html',
+          });
+          response.write(data);
+          response.end();
+        }
+      });
+      break;
+    case '/favicon.ico':
+      fs.readFile(path2, function (error, data) {
+        if (error) {
+          response.writeHead(404);
+          response.write(error);
+          response.end();
+        } else {
+          response.writeHead(200, {
+            'Content-Type': 'text/image',
+          });
+          response.write(data);
+          response.end();
+        }
+      });
+      break;
     default:
       response.writeHead(404);
       response.write("Doesn't exist 404 !");
