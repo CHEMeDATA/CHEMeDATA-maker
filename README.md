@@ -54,5 +54,5 @@ const result = library(args);
 
 
 ## Initial creation of node module 
-Starting point using[create-a-new-project](https://github.com/cheminfo/generator-cheminfo/blob/master/START.md#create-a-new-project)
+Starting point using [create-a-new-project](https://github.com/cheminfo/generator-cheminfo/blob/master/START.md#create-a-new-project).
 
