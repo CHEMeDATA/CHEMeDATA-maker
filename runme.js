@@ -11,7 +11,7 @@ let server = http.createServer(function (request, response) {
       response.writeHead(200, {
         'Content-Type': 'text/plain',
       });
-      response.write('This is Test Message 2.0 !!.');
+      response.write('This is Test Message Morning !!.');
       response.end();
       break;
     case '/html/HtmlPage1.html':
