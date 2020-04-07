@@ -8,14 +8,20 @@ Add CHEMeDATA to documents.
 
 ## Goal
 
-Faciliate the association of spectroscopic data (in form of text) to chemical structures.
+Facilitate the association of spectroscopic data (in the form of text) to chemical structures.
 In the annexe of many PhD thesis, the spectroscopic data are shown next to the structure.
 
 ![Image from phd thesis with molecule and spectroscopic data](images/imagethesis.png)
 
-We should show, next to a molecules (which structure [was extracted from a pdf](https://github.com/CHEMeDATA/fixingmolfiles)) the text (which was extracted using pdfjs-dist) which was located next to the compound. 
+This tool will show, next to a molecules (which structure [were extracted using OSRA](https://chemedata.github.io/fixingmolfiles/)) the text (which was extracted using pdfjs-dist) so that the user can select (whith some help looking for keywords such as 1H-NMR, etc.) the text of the assignement.
 
+This could be save as NMReDATA, *i.e.* a format associating the structure with NMR data.
 
+Optionally, the user should be able to drop NMR, IR, etc. spectra... or Mnova (or other) files to add spectra and assignement.
+
+Optionally, the user could assign the molecules, it was not done already in the previous step.
+
+Finally the data could be saved on (say) Zenodo.
 
 ## Installation
 
