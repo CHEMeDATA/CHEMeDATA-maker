@@ -112,7 +112,7 @@ let server = http.createServer(function (request, response) {
           response.end();
         } else {
           response.writeHead(200, {
-            'Content-Type': 'text/image',
+            'Content-Type': 'text/html',
           });
           response.write(data);
           response.end();
