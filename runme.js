@@ -4,9 +4,9 @@ let path = require('path');
 let url = require('url');
 
 let server = http.createServer(function (request, response) {
-  let pathsource = url.parse(request.url).pathname;
-  let path2 = path.join(__dirname, pathsource);
-  switch (pathsource) {
+  let pathSource = url.parse(request.url).pathname;
+  let path2 = path.join(__dirname, pathSource);
+  switch (pathSource) {
     case '/':
       response.writeHead(200, {
         'Content-Type': 'text/plain',
